@@ -50,25 +50,64 @@ while true
           % find eye-brows
           if (P(1,2) > 0)
             fh_box = [bbox(1) bbox(2) boxes{i}(3) P(1,2)-bbox(1)];
-            f_im = gr(fh_box(1):fh_box(4)+fh_box(1),fh_box(2):fh_box(3)+fh_box(2),:);
-            %f_im = rgb2hsv(f_im);
-            %im_bw = edge(f_im,'sobel');
-            %imshow(im_bw,[]);
-            rectangle('Position',fh_box,'EdgeColor','y','LineWidth',2);
+            f_im = gr(fh_box(2):fh_box(2)+fh_box(4),fh_box(1):fh_box(1)+fh_box(3),:);
+            f_im = f_im(2:end,:)-f_im(1:end-1,:);
+            %imshow(f_im,[]);
+            im_bw = (f_im>mean2(f_im));
+            %imshow(im_bw);
+            S=regionprops(im_bw,'PixelIdxList','Area','Solidity','Centroid','Orientation');
+            % filter regions with small areas
+            idx = ([S.Area] > mean([S.Area]));
+            S = S(idx');
+            idx = ([S.Orientation] < 10 & [S.Orientation] > -10 & [S.Solidity] > 0.4);
+            S = S(idx');
+            %new_img = zeros(size(im_bw,1),size(im_bw,2));
+            r_idx=1;
+            l_idx=1;
+            for k=1:size(S,1)
+              k_x_pos = S(k).Centroid(1);
+              if (k_x_pos > (P(1,6)-fh_box(1)) && k_x_pos < (P(1,2)-fh_box(1)))
+                S_l(l_idx) = S(k);
+                l_idx = l_idx+1;
+              elseif (k_x_pos > (P(1,3)-fh_box(1)) && k_x_pos < (P(1,7)-fh_box(1)))
+                S_r(r_idx) = S(k);
+                r_idx = r_idx+1;
+                %new_img(S(k).PixelIdxList) = 1;
+              end
+            end
+            idx = ([S_l.Area] == max([S_l.Area]));
+            S_l = S_l(idx');
+            idx = ([S_r.Area] == max([S_r.Area]));
+            S_r = S_r(idx'); 
+            %new_img(S_l(1).PixelIdxList)=1;
+            %new_img(S_r(1).PixelIdxList)=1;
+            %imshow(new_img,[]);
+            eb_l = [S_l(1).Centroid(1)+fh_box(1) S_l(1).Centroid(2)+fh_box(2)];
+            eb_r = [S_r(1).Centroid(1)+fh_box(1) S_r(1).Centroid(2)+fh_box(2)];
+            %rectangle('Position',fh_box,'EdgeColor','y','LineWidth',2);
           end
           
           % elapsed time
           t1 = toc;
           fprintf('MEX:    Elapsed time %f ms\n', t1*1000);
           
-          hold on;  
+          hold on;
+          
+          % average the keypoints over a couple frames to smooth them
+          
+          
           % show landmarks
           %comps = ['S0'; 'S1'; 'S2'; 'S3'; 'S4'; 'S5'; 'S6'; 'S7'];
           plot(P(1, 1), P(2, 1), 'b*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'b');
           %text(P(1, 1)+1, P(2, 1)+1, comps(1,:), 'color', 'b', 'FontSize', 12);
           plot(P(1, 2:end), P(2, 2:end), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
           %text(P(1, 2:end)+1, P(2, 2:end)+1, comps(2:end,:), 'color', 'r', 'FontSize', 12);
+          plot(eb_l(1),eb_l(2), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
+          plot(eb_r(1),eb_r(2), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
           hold off;
+          
+          % average the keypoints over a couple frames to smooth them
+          
         end;
     end    
     
