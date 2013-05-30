@@ -1,46 +1,166 @@
-function facedetect
-%FACEDETECT  face detection demo
+function varargout = face(varargin)
+% FACE MATLAB code for face.fig
+%      FACE, by itself, creates a new FACE or raises the existing
+%      singleton*.
 %
-% Before start, addpath('/path/to/mexopencv');
+%      H = FACE returns the handle to a new FACE or the handle to
+%      the existing singleton*.
 %
-%clc;
-%clear all;
-%close all;
+%      FACE('CALLBACK',hObject,eventData,handles,...) calls the local
+%      function named CALLBACK in FACE.M with the given input arguments.
+%
+%      FACE('Property','Value',...) creates a new FACE or raises the
+%      existing singleton*.  Starting from the left, property value pairs are
+%      applied to the GUI before face_OpeningFcn gets called.  An
+%      unrecognized property name or invalid value makes property application
+%      stop.  All inputs are passed to face_OpeningFcn via varargin.
+%
+%      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
+%      instance to run (singleton)".
+%
+% See also: GUIDE, GUIDATA, GUIHANDLES
+
+% Edit the above text to modify the response to help face
+
+% Last Modified by GUIDE v2.5 29-May-2013 23:02:59
+
+% Begin initialization code - DO NOT EDIT
+gui_Singleton = 1;
+gui_State = struct('gui_Name',       mfilename, ...
+                   'gui_Singleton',  gui_Singleton, ...
+                   'gui_OpeningFcn', @face_OpeningFcn, ...
+                   'gui_OutputFcn',  @face_OutputFcn, ...
+                   'gui_LayoutFcn',  [] , ...
+                   'gui_Callback',   []);
+               
+               
+global neutral_model; 
+neutral_model = zeros(2,15,100);
+
+if nargin && ischar(varargin{1})
+    gui_State.gui_Callback = str2func(varargin{1});
+end
+
+if nargout
+    [varargout{1:nargout}] = gui_mainfcn(gui_State, varargin{:});
+else
+    gui_mainfcn(gui_State, varargin{:});
+end
+% End initialization code - DO NOT EDIT
+
+
+% --- Executes just before face is made visible.
+function face_OpeningFcn(hObject, eventdata, handles, varargin)
+% This function has no output args, see OutputFcn.
+% hObject    handle to figure
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+% varargin   command line arguments to face (see VARARGIN)
+
+% Choose default command line output for face
+handles.output = hObject;
+
+
+%add mex here 
+% addpath('/Users/kzhou/Desktop/trunk/mexopencv-master/');
 addpath('./include');
+
+
+
+
+% Update handles structure
+guidata(hObject, handles);
+
+% UIWAIT makes face wait for user response (see UIRESUME)
+% uiwait(handles.figure1);
+
+
+% --- Outputs from this function are returned to the command line.
+function varargout = face_OutputFcn(hObject, eventdata, handles) 
+% varargout  cell array for returning output args (see VARARGOUT);
+% hObject    handle to figure
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Get default command line output from handles structure
+varargout{1} = handles.output;
+
+
+% --- Executes on button press in togglebutton1.
+function togglebutton1_Callback(hObject, eventdata, handles)
+% hObject    handle to togglebutton1 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of togglebutton1
+
+
+
+
+
+
+% --- Executes on button press in pushbutton3.
+function pushbutton3_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton3 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+
+
+
+
+
+
+
+
+
+% --- Executes on button press in pushbutton1.
+function pushbutton1_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton1 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+
+
+
+
 
 % Load flandmark_model into MATLAB memory
 model = flandmark_load_model('./include/flandmark_model.dat');
 
-disp('Face detection demo. Press any key when done.');
 
 % Load cascade file
 xml_file = fullfile('./include','haarcascade_frontalface_alt2.xml');
 classifier = cv.CascadeClassifier(xml_file);
 
-% Set up camera
-camera = cv.VideoCapture;
-pause(3); % Necessary in some environment. See help cv.VideoCapture
-
-% Set up display window
-window = figure('KeyPressFcn',@(obj,evt)setappdata(obj,'flag',true));
-setappdata(window,'flag',false);
-
-% Start main loop
-%while true
-while true
-    % Grab and preprocess an image
-    im = camera.read;
+%Camera
+cap = cv.VideoCapture;
+pause(3); % intialization...
+flag_stop = false;
+cal_cnt=0;
+while 1
+    im = cap.read;
     im = cv.resize(im,0.5);
     gr = cv.cvtColor(im,'RGB2GRAY');
     gr = cv.equalizeHist(gr);
-    % Detect
-    boxes = classifier.detect(gr,'ScaleFactor',1.2,...
+    
+    
+    %bounding box here
+    boxes = classifier.detect(gr,'ScaleFactor',1.3,...
                                  'MinNeighbors',2,...
-                                 'MinSize',[30,30]);
-    % Draw results
-    imshow(im);
+                                 'MinSize',[40,40],'MaxSize',[200,200]);
     if (length(boxes)==1)
-        rectangle('Position',boxes{1},'EdgeColor','g','LineWidth',2);
+        
+     
+        % Draw results
+        imshow(gr,'Parent', handles.axes1);
+
+    %     for i = 1:numel(boxes)
+    %         rectangle('Position',boxes{},'EdgeColor','r','LineWidth',2);
+    %         pause(0.5);
+    %         figure(50);imshow(rgb2gray(im(boxes{i}(2):boxes{i}(2)+boxes{i}(4),boxes{i}(1):boxes{i}(1)+boxes{i}(3),:)));
+    %     end
+       rectangle('Position',boxes{1},'EdgeColor','g','LineWidth',2);
         
         bbox = [boxes{1}(1) boxes{1}(2) boxes{1}(1)+boxes{1}(3) boxes{1}(2)+boxes{1}(4)];
         % detect keypoints and display
@@ -144,18 +264,30 @@ while true
           
           % average the keypoints over a couple frames to smooth them
           
-        end;
-    end    
+        end; 
     
-    % Terminate if any user input
-    flag = getappdata(window,'flag');
-    if isempty(flag)||flag, break; end
-    pause(0.1);
+      
+      Cal_flag   = get(handles.togglebutton1,'Value');
+      if Cal_flag
+         cal_cnt = 1+cal_cnt;
+         % store keypoints (P, eb_l, eb_r, lip_m) to neutral model
+         %
+         %
+         if(cal_cnt>100)
+             set(handles.togglebutton1,'Value',0);
+         end   
+      else   
+         cal_cnt = 0;
+          
+      end
+      
+      
+        if flag_stop
+            
+            break;
+        end
+        pause(0.01);
+    end
+
+
 end
-
-pause(0.1);
-% Close
-close(window);
-
-end
-
