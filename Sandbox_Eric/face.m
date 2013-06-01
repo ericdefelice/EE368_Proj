@@ -32,10 +32,6 @@ gui_State = struct('gui_Name',       mfilename, ...
                    'gui_OutputFcn',  @face_OutputFcn, ...
                    'gui_LayoutFcn',  [] , ...
                    'gui_Callback',   []);
-               
-               
-global neutral_model; 
-neutral_model = zeros(2,15,100);
 
 if nargin && ischar(varargin{1})
     gui_State.gui_Callback = str2func(varargin{1});
@@ -60,13 +56,9 @@ function face_OpeningFcn(hObject, eventdata, handles, varargin)
 % Choose default command line output for face
 handles.output = hObject;
 
-
 %add mex here 
 % addpath('/Users/kzhou/Desktop/trunk/mexopencv-master/');
 addpath('./include');
-
-
-
 
 % Update handles structure
 guidata(hObject, handles);
@@ -92,12 +84,6 @@ function togglebutton1_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of togglebutton1
-
-
-
-
-
 
 % --- Executes on button press in pushbutton3.
 function pushbutton3_Callback(hObject, eventdata, handles)
@@ -106,28 +92,17 @@ function pushbutton3_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 
 
-
-
-
-
-
-
-
-
 % --- Executes on button press in pushbutton1.
 function pushbutton1_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-
-
-
-
+% disable warning messages
+warning('off');
 
 % Load flandmark_model into MATLAB memory
 model = flandmark_load_model('./include/flandmark_model.dat');
-
 
 % Load cascade file
 xml_file = fullfile('./include','haarcascade_frontalface_alt2.xml');
@@ -136,157 +111,107 @@ classifier = cv.CascadeClassifier(xml_file);
 %Camera
 cap = cv.VideoCapture;
 pause(3); % intialization...
+%flag_stop = get(handles.pushbutton3,'Value');
 flag_stop = false;
-cal_cnt=0;
+cal_cnt=1;
+KP_prev = zeros(4,15);
+kp_prev_i = 1;
+% model to set for calibration
+neutral_model = zeros(2,15,100);
+neutral_avg = zeros(2,15);
+% enter processing loop
 while 1
     im = cap.read;
     im = cv.resize(im,0.5);
     gr = cv.cvtColor(im,'RGB2GRAY');
     gr = cv.equalizeHist(gr);
     
-    
     %bounding box here
     boxes = classifier.detect(gr,'ScaleFactor',1.3,...
                                  'MinNeighbors',2,...
                                  'MinSize',[40,40],'MaxSize',[200,200]);
     if (length(boxes)==1)
-        
-     
-        % Draw results
-        imshow(gr,'Parent', handles.axes1);
+      % Draw results
+      imshow(gr,'Parent', handles.axes1);
 
-    %     for i = 1:numel(boxes)
-    %         rectangle('Position',boxes{},'EdgeColor','r','LineWidth',2);
-    %         pause(0.5);
-    %         figure(50);imshow(rgb2gray(im(boxes{i}(2):boxes{i}(2)+boxes{i}(4),boxes{i}(1):boxes{i}(1)+boxes{i}(3),:)));
-    %     end
-       rectangle('Position',boxes{1},'EdgeColor','g','LineWidth',2);
+      % Draw bounding box around detected face
+      rectangle('Position',boxes{1},'EdgeColor','g','LineWidth',2);
         
-        bbox = [boxes{1}(1) boxes{1}(2) boxes{1}(1)+boxes{1}(3) boxes{1}(2)+boxes{1}(4)];
-        % detect keypoints and display
-        for j = 1 : size(boxes{1}, 1)
-          tic
-          P = flandmark_detector(gr, int32(bbox(j, :)),  model);
-          eb_l = zeros(2,3);
-          eb_r = zeros(2,3);
-          lip_m = zeros(2,1);
-          % find eye-brows
-          if (P(1,2) > 0)
-            fh_box = [bbox(1) bbox(2) boxes{1}(3) P(1,2)-bbox(1)];
-            f_im = gr(fh_box(2)+(fh_box(4)/2):fh_box(2)+fh_box(4),fh_box(1):fh_box(1)+fh_box(3),:);
-            f_im = f_im(2:end,:)-f_im(1:end-1,:);
-            %imshow(f_im,[]);
-            im_bw = (f_im>mean2(f_im));
-            %imshow(im_bw);
-            S=regionprops(im_bw,'PixelIdxList','Area','Solidity','Centroid','Orientation','Extrema');
-            % filter regions with small areas
-            %idx = ([S.Area] > mean([S.Area]));
-            idx = ([S.Area] > 10);
-            S = S(idx');
-            idx = ([S.Orientation] < 10 & [S.Orientation] > -10 & [S.Solidity] > 0.4);
-            S = S(idx');
-            %new_img = zeros(size(im_bw,1),size(im_bw,2));
-            r_idx=1;
-            l_idx=1;
-            for k=1:size(S,1)
-              k_x_pos = S(k).Centroid(1);
-              if (k_x_pos > (P(1,6)-fh_box(1)) && k_x_pos < (P(1,2)-fh_box(1)))
-                S_l(l_idx) = S(k);
-                l_idx = l_idx+1;
-              elseif (k_x_pos > (P(1,3)-fh_box(1)) && k_x_pos < (P(1,7)-fh_box(1)))
-                S_r(r_idx) = S(k);
-                r_idx = r_idx+1;
-                %new_img(S(k).PixelIdxList) = 1;
-              end
-            end
-            if (exist('S_l','var') && exist('S_r','var'))
-              idx = ([S_l.Area] == max([S_l.Area]));
-              S_l = S_l(idx');
-              idx = ([S_r.Area] == max([S_r.Area]));
-              S_r = S_r(idx'); 
-              % save eyebrow keypoints to variables
-              hold on;
-              
-              y_adj = fh_box(2)+(fh_box(4)/2);
-              eb_l(:,1) = [S_l(1).Centroid(1)+fh_box(1) S_l(1).Centroid(2)+y_adj];
-              eb_r(:,1) = [S_r(1).Centroid(1)+fh_box(1) S_r(1).Centroid(2)+y_adj];
-              eb_l(:,2) = [S_l(1).Extrema(8,1)+fh_box(1) S_l(1).Extrema(8,2)+y_adj];
-              eb_l(:,3) = [S_l(1).Extrema(3,1)+fh_box(1) S_l(1).Extrema(3,2)+y_adj];
-              eb_r(:,2) = [S_r(1).Extrema(8,1)+fh_box(1) S_r(1).Extrema(8,2)+y_adj];
-              eb_r(:,3) = [S_r(1).Extrema(3,1)+fh_box(1) S_r(1).Extrema(3,2)+y_adj];
-              % plot keypoints
-              plot(eb_l(1,:),eb_l(2,:), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
-              plot(eb_r(1,:),eb_r(2,:), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
-            end
-          end
-          
-          % find center of lower lip
-          if (P(1,4) > 0)
-            %fh_box = [bbox(1) bbox(2) boxes{i}(3) P(1,2)-bbox(1)];
-            %f_im = gr(fh_box(2)+(fh_box(4)/2):fh_box(2)+fh_box(4),fh_box(1):fh_box(1)+fh_box(3),:);
-            
-            lip_box = [P(1,4) P(2,8) P(1,5)-P(1,4) bbox(4)-P(2,8)];
-            l_im = gr(lip_box(2):lip_box(2)+lip_box(4)+10,lip_box(1):lip_box(1)+lip_box(3),:);
-            hold off;
-            l_im = l_im(2:end,:)-l_im(1:end-1,:);
-            %imshow(l_im);
-            im_bw = (l_im>10);
-            im_bw = imclose(im_bw,ones(size(im_bw,2)/8));
-            %imshow(im_bw);
-            S=regionprops(im_bw,'PixelIdxList','Area','Centroid');
-            % filter regions with small areas
-            idx = ([S.Area]==max([S.Area]));
-            S = S(idx');
-            %im_bw = zeros(size(im_bw,1),size(im_bw,2));
-            %im_bw(S(1).PixelIdxList) = 1;
-            %imshow(im_bw);
-            hold on;
-            lip_m(:,1) = [S(1).Centroid(1)+lip_box(1) S(1).Centroid(2)+lip_box(2)];
-            % plot keypoints
-            plot(lip_m(1,:),lip_m(2,:), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');           
-          end
-          % elapsed time
-          t1 = toc;
-          fprintf('MEX:    Elapsed time %f ms\n', t1*1000);
-          
-          % average the keypoints over a couple frames to smooth them
-          
-          hold on;
-          % show landmarks
-          %comps = ['S0'; 'S1'; 'S2'; 'S3'; 'S4'; 'S5'; 'S6'; 'S7'];
-          plot(P(1, 1), P(2, 1), 'b*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'b');
-          %text(P(1, 1)+1, P(2, 1)+1, comps(1,:), 'color', 'b', 'FontSize', 12);
-          plot(P(1, 2:end), P(2, 2:end), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
-          %text(P(1, 2:end)+1, P(2, 2:end)+1, comps(2:end,:), 'color', 'r', 'FontSize', 12);
-          %plot(eb_l(1,:),eb_l(2,:), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
-          %plot(eb_r(1,:),eb_r(2,:), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
-          hold off;
-          
-          % average the keypoints over a couple frames to smooth them
-          
-        end; 
-    
+      % crop bounding box image from original image
+      bbox = [boxes{1}(1) boxes{1}(2) boxes{1}(1)+boxes{1}(3) boxes{1}(2)+boxes{1}(4)];
       
+      % start timer for speed evaluation
+      tic
+      % detect keypoints in the bounding box
+      KP = find_keypoints(gr, boxes{1}, bbox, model, 2);
+      % elapsed time for keypoint detection
+      t1 = toc;
+      fprintf('Keypoint Detection:    Elapsed time %f ms\n', t1*1000);
+      
+      %if (nnz(KP) == 15)
+        % if KP_prev is full, average the keypoints over a few frames to smooth them
+        if (kp_prev_i == 5)
+          if (nnz(KP) < 15)
+            kp_prev_i = 1;
+          else
+            KP_avg = (KP_prev(1:2,:)+KP_prev(3:4,:)+KP)./3;
+            % save the keypoints into the previous keypoint matrix for averaging
+            KP_prev = [KP_prev(3:end,:);KP];
+          end
+        else
+          % KP_prev is not full yet, so use current keypoints until then  
+          KP_avg = KP;
+          % fill the KP_prev matrix with keypoint values
+          KP_prev(kp_prev_i:kp_prev_i+1,:) = KP;
+          kp_prev_i = kp_prev_i + 2;
+        end
+      %else
+        % reset the average if no keypoints are detected for current bbox
+      %  KP_avg = KP;
+      %  KP_prev = zeros(6,15);
+      %end
+          
+      % show keypoints on the original grayscale image
+      hold on;
+      %comps = ['S0'; 'S1'; 'S2'; 'S3'; 'S4'; 'S5'; 'S6'; 'S7'];
+      plot(KP_avg(1, 1), KP_avg(2, 1), 'b*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'b');
+      %text(P(1, 1)+1, P(2, 1)+1, comps(1,:), 'color', 'b', 'FontSize', 12);
+      plot(KP_avg(1, 2:end), KP_avg(2, 2:end), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
+      %text(P(1, 2:end)+1, P(2, 2:end)+1, comps(2:end,:), 'color', 'r', 'FontSize', 12);
+      %plot(eb_l(1,:),eb_l(2,:), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
+      %plot(eb_r(1,:),eb_r(2,:), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
+      hold off;
+          
+      % Check to perform calibration
       Cal_flag   = get(handles.togglebutton1,'Value');
       if Cal_flag
          cal_cnt = 1+cal_cnt;
-         % store keypoints (P, eb_l, eb_r, lip_m) to neutral model
-         %
-         %
+         % store keypoints to neutral model
+         neutral_model(:,:,cal_cnt) = KP_avg;
          if(cal_cnt>100)
+             model_sum = zeros(2,15);
+             for f=1:100
+               model_sum = neutral_model(:,:,f)+model_sum;
+             end
+             neutral_avg = model_sum./100;
              set(handles.togglebutton1,'Value',0);
+             figure; imshow(gr,[]);
+             hold on;
+             plot(neutral_avg(1, 1), neutral_avg(2, 1), 'b*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'b');
+             plot(neutral_avg(1, 2:end), neutral_avg(2, 2:end), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
+             hold off;
+             % normalize neutral model to the center 
+             pause(15);
          end   
       else   
-         cal_cnt = 0;
-          
+         cal_cnt = 1;
       end
       
-      
-        if flag_stop
-            
-            break;
-        end
-        pause(0.01);
+      % If the 'Cease' button is pressed, stop loop
+      if flag_stop
+        break;
+      end
+      pause(0.01);
     end
 
 
