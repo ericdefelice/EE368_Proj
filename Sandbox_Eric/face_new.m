@@ -1,35 +1,35 @@
-function varargout = face(varargin)
-% FACE MATLAB code for face.fig
-%      FACE, by itself, creates a new FACE or raises the existing
+function varargout = face_new(varargin)
+% FACE_NEW MATLAB code for face_new.fig
+%      FACE_NEW, by itself, creates a new FACE_NEW or raises the existing
 %      singleton*.
 %
-%      H = FACE returns the handle to a new FACE or the handle to
+%      H = FACE_NEW returns the handle to a new FACE_NEW or the handle to
 %      the existing singleton*.
 %
-%      FACE('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in FACE.M with the given input arguments.
+%      FACE_NEW('CALLBACK',hObject,eventData,handles,...) calls the local
+%      function named CALLBACK in FACE_NEW.M with the given input arguments.
 %
-%      FACE('Property','Value',...) creates a new FACE or raises the
+%      FACE_NEW('Property','Value',...) creates a new FACE_NEW or raises the
 %      existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before face_OpeningFcn gets called.  An
+%      applied to the GUI before face_new_OpeningFcn gets called.  An
 %      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to face_OpeningFcn via varargin.
+%      stop.  All inputs are passed to face_new_OpeningFcn via varargin.
 %
 %      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
 %      instance to run (singleton)".
 %
 % See also: GUIDE, GUIDATA, GUIHANDLES
 
-% Edit the above text to modify the response to help face
+% Edit the above text to modify the response to help face_new
 
-% Last Modified by GUIDE v2.5 29-May-2013 23:02:59
+% Last Modified by GUIDE v2.5 01-Jun-2013 16:26:13
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
-                   'gui_OpeningFcn', @face_OpeningFcn, ...
-                   'gui_OutputFcn',  @face_OutputFcn, ...
+                   'gui_OpeningFcn', @face_new_OpeningFcn, ...
+                   'gui_OutputFcn',  @face_new_OutputFcn, ...
                    'gui_LayoutFcn',  [] , ...
                    'gui_Callback',   []);
 
@@ -45,15 +45,15 @@ end
 % End initialization code - DO NOT EDIT
 
 
-% --- Executes just before face is made visible.
-function face_OpeningFcn(hObject, eventdata, handles, varargin)
+% --- Executes just before face_new is made visible.
+function face_new_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-% varargin   command line arguments to face (see VARARGIN)
+% varargin   command line arguments to face_new (see VARARGIN)
 
-% Choose default command line output for face
+% Choose default command line output for face_new
 handles.output = hObject;
 
 %add mex here 
@@ -63,12 +63,12 @@ addpath('./include');
 % Update handles structure
 guidata(hObject, handles);
 
-% UIWAIT makes face wait for user response (see UIRESUME)
+% UIWAIT makes face_new wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
 
 % --- Outputs from this function are returned to the command line.
-function varargout = face_OutputFcn(hObject, eventdata, handles) 
+function varargout = face_new_OutputFcn(hObject, eventdata, handles) 
 % varargout  cell array for returning output args (see VARARGOUT);
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
@@ -105,7 +105,7 @@ warning('off');
 model = flandmark_load_model('./include/flandmark_model.dat');
 
 % Load expression models
-exp_models = load('exp_models.mat');
+load('exp_models.mat');
 
 % Load cascade file
 xml_file = fullfile('./include','haarcascade_frontalface_alt2.xml');
@@ -122,6 +122,7 @@ kp_prev_i = 1;
 % model to set for calibration
 neutral_model = zeros(2,15,100);
 neutral_avg = zeros(2,15);
+bbox_avg = zeros(4,100);
 % enter processing loop
 while 1
     im = cap.read;
@@ -136,8 +137,9 @@ while 1
     if (length(boxes)==1)
       % Draw results
       imshow(gr,'Parent', handles.axes1);
+      axes(handles.axes1); %set the current axes to axes1
 
-      % Draw bounding box around detected face
+      % Draw bounding box around detected face_new
       rectangle('Position',boxes{1},'EdgeColor','g','LineWidth',2);
         
       % crop bounding box image from original image
@@ -184,26 +186,42 @@ while 1
       %plot(eb_l(1,:),eb_l(2,:), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
       %plot(eb_r(1,:),eb_r(2,:), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
       hold off;
-          
+      
+      % Perform matching to find the closest expression to the current
+      % keypoints
+      exp_map = find_exp(bbox, KP_avg, exp_models, neutral_avg);
+      
+      % plot the correlation to the expression models
+      axes(handles.axes3); %set the current axes to axes3
+      bar(exp_map);
+      AXIS([0 5 0 3])
+      
       % Check to perform calibration
       Cal_flag   = get(handles.togglebutton1,'Value');
       if Cal_flag
          cal_cnt = 1+cal_cnt;
          % store keypoints to neutral model
          neutral_model(:,:,cal_cnt) = KP_avg;
+         bbox_avg(:,cal_cnt) = bbox;
          if(cal_cnt>100)
              model_sum = zeros(2,15);
+             bbox_sum = zeros(4,1);
              for f=1:100
                model_sum = neutral_model(:,:,f)+model_sum;
+               bbox_sum = bbox_avg(:,f)+bbox_sum;
              end
              neutral_avg = model_sum./100;
+             bbox_sum = bbox_sum./100;
              set(handles.togglebutton1,'Value',0);
              figure; imshow(gr,[]);
              hold on;
              plot(neutral_avg(1, 1), neutral_avg(2, 1), 'b*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'b');
              plot(neutral_avg(1, 2:end), neutral_avg(2, 2:end), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
              hold off;
-             % normalize neutral model to the center 
+             % normalize neutral model to the center
+             neutral_avg(1,2:end) = (neutral_avg(1,1)-neutral_avg(1,2:end))/bbox_sum(3);
+             neutral_avg(2,2:end) = (neutral_avg(2,1)-neutral_avg(2,2:end))/bbox_sum(4);
+             neutral_avg(:,1) = [neutral_avg(1,1)/bbox_sum(3) neutral_avg(2,1)/bbox_sum(4)];
              pause(15);
          end   
       else   

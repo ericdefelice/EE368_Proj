@@ -7,43 +7,74 @@ function KP = find_keypoints(img, cur_box, bbox, model, alg_num)
   KP(:,1:8) = flandmark_detector(img, int32(bbox),  model);
   % find eye-brows
   if (KP(2,2) > 0)
-    % first find bounding box for forehead
-    fh_bot = min([KP(2,2) KP(2,3) KP(2,6) KP(2,7)]);
-    fh_box = [bbox(1) bbox(2) cur_box(3) fh_bot-bbox(2)];
-    % crop forehead image
-    f_im = img(fh_box(2)+fh_box(4)/4:fh_box(2)+fh_box(4),fh_box(1):fh_box(1)+fh_box(3),:);
-    % perform adaptive histogram equalization to account for lighting
-    f_im = adapthisteq(f_im,'NumTiles',[8 8],'ClipLimit',0.001);
-    % perform median filtering for noise reduction
-    f_im = medfilt2(f_im,[4 4]);
-    % perform difference of box filtering in y-direction to find edges
-    H_avg2 = fspecial('average',[4 2]);
-    H_avg4 = fspecial('average',[8 2]);
-    img2 = imfilter(f_im,H_avg2,'replicate','conv');
-    img4 = imfilter(f_im,H_avg4,'replicate','conv');
-    f_im = img4-img2;
-    % adjust the resulting image to have a mean of zero
-    f_im = f_im - mean2(f_im);
-    % threshold image to bright values above a std dev from mean
-    im_bw = (f_im>0.1*sqrt(var(var(double(f_im)))));
-    % find regions in the thresholded image
-    S=regionprops(im_bw,'PixelIdxList','Area','Centroid','Extrema');
-    % filter out the small areas
-    idx = ([S.Area] > mean([S.Area]));
-    S = S(idx');
-    % only keep the regions that have a centroid between the eye corners
-    r_idx=1;
-    l_idx=1;
-    for k=1:size(S,1)
-      k_x_pos = S(k).Centroid(1);
-      if (k_x_pos > (KP(1,6)-fh_box(1)) && k_x_pos < (KP(1,2)-fh_box(1)))
-        S_l(l_idx) = S(k);
-        l_idx = l_idx+1;
-      elseif (k_x_pos > (KP(1,3)-fh_box(1)) && k_x_pos < (KP(1,7)-fh_box(1)))
-        S_r(r_idx) = S(k);
-        r_idx = r_idx+1;
+    if (alg_num == 1)
+      fh_box = [bbox(1) bbox(2) cur_box(3) KP(1,2)-bbox(1)];
+      f_im = img(fh_box(2)+(fh_box(4)/2):fh_box(2)+fh_box(4),fh_box(1):fh_box(1)+fh_box(3),:);
+      f_im = f_im(2:end,:)-f_im(1:end-1,:);
+      %imshow(f_im,[]);
+      im_bw = (f_im>mean2(f_im));
+      %imshow(im_bw);
+      S=regionprops(im_bw,'PixelIdxList','Area','Solidity','Centroid','Orientation','Extrema');
+      % filter regions with small areas
+      %idx = ([S.Area] > mean([S.Area]));
+      idx = ([S.Area] > 10);
+      S = S(idx');
+      idx = ([S.Orientation] < 10 & [S.Orientation] > -10 & [S.Solidity] > 0.3);
+      S = S(idx');
+      %new_img = zeros(size(im_bw,1),size(im_bw,2));
+      r_idx=1;
+      l_idx=1;
+      for k=1:size(S,1)
+        k_x_pos = S(k).Centroid(1);
+        if (k_x_pos > (KP(1,6)-fh_box(1)) && k_x_pos < (KP(1,2)-fh_box(1)))
+          S_l(l_idx) = S(k);
+          l_idx = l_idx+1;
+        elseif (k_x_pos > (KP(1,3)-fh_box(1)) && k_x_pos < (KP(1,7)-fh_box(1)))
+          S_r(r_idx) = S(k);
+          r_idx = r_idx+1;
+          %new_img(S(k).PixelIdxList) = 1;
+        end
       end
-    end
+    else  
+      % first find bounding box for forehead
+      fh_bot = min([KP(2,2) KP(2,3) KP(2,6) KP(2,7)]);
+      fh_box = [bbox(1) bbox(2) cur_box(3) fh_bot-bbox(2)];
+      % crop forehead image
+      f_im = img(fh_box(2)+fh_box(4)/4:fh_box(2)+fh_box(4),fh_box(1):fh_box(1)+fh_box(3),:);
+      % perform adaptive histogram equalization to account for lighting
+      f_im = adapthisteq(f_im,'NumTiles',[8 8],'ClipLimit',0.001);
+      % perform median filtering for noise reduction
+      f_im = medfilt2(f_im,[4 4]);
+      % perform difference of box filtering in y-direction to find edges
+      H_avg2 = fspecial('average',[4 2]);
+      H_avg4 = fspecial('average',[8 2]);
+      img2 = imfilter(f_im,H_avg2,'replicate','conv');
+      img4 = imfilter(f_im,H_avg4,'replicate','conv');
+      f_im = img4-img2;
+      % adjust the resulting image to have a mean of zero
+      f_im = f_im - mean2(f_im);
+      % threshold image to bright values above a std dev from mean
+      im_bw = (f_im>0.1*sqrt(var(var(double(f_im)))));
+      imshow(im_bw);
+      % find regions in the thresholded image
+      S=regionprops(im_bw,'PixelIdxList','Area','Centroid','Extrema');
+      % filter out the small areas
+      idx = ([S.Area] > mean([S.Area]));
+      S = S(idx');
+      % only keep the regions that have a centroid between the eye corners
+      r_idx=1;
+      l_idx=1;
+      for k=1:size(S,1)
+        k_x_pos = S(k).Centroid(1);
+        if (k_x_pos > (KP(1,6)-fh_box(1)) && k_x_pos < (KP(1,2)-fh_box(1)))
+          S_l(l_idx) = S(k);
+          l_idx = l_idx+1;
+        elseif (k_x_pos > (KP(1,3)-fh_box(1)) && k_x_pos < (KP(1,7)-fh_box(1)))
+          S_r(r_idx) = S(k);
+          r_idx = r_idx+1;
+        end
+      end
+    end % algorithm choice if statement  
     % assume the largest region above each eye is the eyebrow
     if (exist('S_l','var') && exist('S_r','var'))
       idx = ([S_l.Area] == max([S_l.Area]));
@@ -51,7 +82,11 @@ function KP = find_keypoints(img, cur_box, bbox, model, alg_num)
       idx = ([S_r.Area] == max([S_r.Area]));
       S_r = S_r(idx'); 
       % save eyebrow keypoints to variables
-      y_adj = fh_box(2)+fh_box(4)/4;
+      if (alg_num == 1)
+        y_adj = fh_box(2)+(fh_box(4)/2);
+      else
+        y_adj = fh_box(2)+fh_box(4)/4;
+      end
       eb_l(:,1) = [S_l(1).Centroid(1)+fh_box(1) S_l(1).Centroid(2)+y_adj];
       eb_r(:,1) = [S_r(1).Centroid(1)+fh_box(1) S_r(1).Centroid(2)+y_adj];
       eb_l(:,2) = [S_l(1).Extrema(8,1)+fh_box(1) S_l(1).Extrema(8,2)+y_adj];
@@ -61,8 +96,16 @@ function KP = find_keypoints(img, cur_box, bbox, model, alg_num)
       % map to KP output
       KP(:,9:14) = [eb_l eb_r];
       % plot keypoints
-      %plot(eb_l(1,:),eb_l(2,:), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
-      %plot(eb_r(1,:),eb_r(2,:), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
+      hold on;
+      eb_pl(:,1) = [S_l(1).Centroid(1) S_l(1).Centroid(2)];
+      eb_pr(:,1) = [S_r(1).Centroid(1) S_r(1).Centroid(2)];
+      eb_pl(:,2) = [S_l(1).Extrema(8,1) S_l(1).Extrema(8,2)];
+      eb_pl(:,3) = [S_l(1).Extrema(3,1) S_l(1).Extrema(3,2)];
+      eb_pr(:,2) = [S_r(1).Extrema(8,1) S_r(1).Extrema(8,2)];
+      eb_pr(:,3) = [S_r(1).Extrema(3,1) S_r(1).Extrema(3,2)];
+      plot(eb_pl(1,:),eb_pl(2,:), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
+      plot(eb_pr(1,:),eb_pr(2,:), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
+      hold off;
     end
   end
           

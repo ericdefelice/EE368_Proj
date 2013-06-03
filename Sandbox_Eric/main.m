@@ -1,35 +1,35 @@
-function varargout = face(varargin)
-% FACE MATLAB code for face.fig
-%      FACE, by itself, creates a new FACE or raises the existing
+function varargout = main(varargin)
+% MAIN MATLAB code for main.fig
+%      MAIN, by itself, creates a new MAIN or raises the existing
 %      singleton*.
 %
-%      H = FACE returns the handle to a new FACE or the handle to
+%      H = MAIN returns the handle to a new MAIN or the handle to
 %      the existing singleton*.
 %
-%      FACE('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in FACE.M with the given input arguments.
+%      MAIN('CALLBACK',hObject,eventData,handles,...) calls the local
+%      function named CALLBACK in MAIN.M with the given input arguments.
 %
-%      FACE('Property','Value',...) creates a new FACE or raises the
+%      MAIN('Property','Value',...) creates a new MAIN or raises the
 %      existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before face_OpeningFcn gets called.  An
+%      applied to the GUI before main_OpeningFcn gets called.  An
 %      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to face_OpeningFcn via varargin.
+%      stop.  All inputs are passed to main_OpeningFcn via varargin.
 %
 %      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
 %      instance to run (singleton)".
 %
 % See also: GUIDE, GUIDATA, GUIHANDLES
 
-% Edit the above text to modify the response to help face
+% Edit the above text to modify the response to help main
 
-% Last Modified by GUIDE v2.5 29-May-2013 23:02:59
+% Last Modified by GUIDE v2.5 01-Jun-2013 21:47:56
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
-                   'gui_OpeningFcn', @face_OpeningFcn, ...
-                   'gui_OutputFcn',  @face_OutputFcn, ...
+                   'gui_OpeningFcn', @main_OpeningFcn, ...
+                   'gui_OutputFcn',  @main_OutputFcn, ...
                    'gui_LayoutFcn',  [] , ...
                    'gui_Callback',   []);
 
@@ -45,15 +45,15 @@ end
 % End initialization code - DO NOT EDIT
 
 
-% --- Executes just before face is made visible.
-function face_OpeningFcn(hObject, eventdata, handles, varargin)
+% --- Executes just before main is made visible.
+function main_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-% varargin   command line arguments to face (see VARARGIN)
+% varargin   command line arguments to main (see VARARGIN)
 
-% Choose default command line output for face
+% Choose default command line output for main
 handles.output = hObject;
 
 %add mex here 
@@ -63,12 +63,12 @@ addpath('./include');
 % Update handles structure
 guidata(hObject, handles);
 
-% UIWAIT makes face wait for user response (see UIRESUME)
+% UIWAIT makes main wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
 
 % --- Outputs from this function are returned to the command line.
-function varargout = face_OutputFcn(hObject, eventdata, handles) 
+function varargout = main_OutputFcn(hObject, eventdata, handles) 
 % varargout  cell array for returning output args (see VARARGOUT);
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
@@ -105,7 +105,7 @@ warning('off');
 model = flandmark_load_model('./include/flandmark_model.dat');
 
 % Load expression models
-exp_models = load('exp_models.mat');
+load('exp_models.mat');
 
 % Load cascade file
 xml_file = fullfile('./include','haarcascade_frontalface_alt2.xml');
@@ -122,11 +122,19 @@ kp_prev_i = 1;
 % model to set for calibration
 neutral_model = zeros(2,15,100);
 neutral_avg = zeros(2,15);
+bbox_avg = zeros(4,100);
+% file for data output
+persistent fid;
+fid = fopen('./output_data/data_log.txt','at');
+% algorithm number for keypoint detection
+alg_num = 2;
+fprintf(fid,'ALG_NUM : %f\n',alg_num);
 % enter processing loop
 while 1
     im = cap.read;
     im = cv.resize(im,0.5);
     gr = cv.cvtColor(im,'RGB2GRAY');
+    im_out = gr;
     gr = cv.equalizeHist(gr);
     
     %bounding box here
@@ -135,9 +143,10 @@ while 1
                                  'MinSize',[40,40],'MaxSize',[200,200]);
     if (length(boxes)==1)
       % Draw results
-      imshow(gr,'Parent', handles.axes1);
+      imshow(im_out,'Parent', handles.axes1);
+      axes(handles.axes1); %set the current axes to axes1
 
-      % Draw bounding box around detected face
+      % Draw bounding box around detected main
       rectangle('Position',boxes{1},'EdgeColor','g','LineWidth',2);
         
       % crop bounding box image from original image
@@ -146,12 +155,12 @@ while 1
       % start timer for speed evaluation
       tic
       % detect keypoints in the bounding box
-      KP = find_keypoints(gr, boxes{1}, bbox, model, 2);
+      KP = find_keypoints(gr, boxes{1}, bbox, model, alg_num);
       % elapsed time for keypoint detection
       t1 = toc;
-      fprintf('Keypoint Detection:    Elapsed time %f ms\n', t1*1000);
+      %fprintf(fid,'Keypoint Detection:    Elapsed time %f ms\n', t1*1000);
       
-      %if (nnz(KP) == 15)
+      if (size(KP,2) == 15)
         % if KP_prev is full, average the keypoints over a few frames to smooth them
         if (kp_prev_i == 5)
           if (nnz(KP) < 15)
@@ -165,14 +174,16 @@ while 1
           % KP_prev is not full yet, so use current keypoints until then  
           KP_avg = KP;
           % fill the KP_prev matrix with keypoint values
-          KP_prev(kp_prev_i:kp_prev_i+1,:) = KP;
-          kp_prev_i = kp_prev_i + 2;
+          if (kp_prev_i < 4)
+            KP_prev(kp_prev_i:kp_prev_i+1,:) = KP;
+            kp_prev_i = kp_prev_i + 2;
+          end
         end
       %else
         % reset the average if no keypoints are detected for current bbox
       %  KP_avg = KP;
       %  KP_prev = zeros(6,15);
-      %end
+      end
           
       % show keypoints on the original grayscale image
       hold on;
@@ -184,27 +195,49 @@ while 1
       %plot(eb_l(1,:),eb_l(2,:), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
       %plot(eb_r(1,:),eb_r(2,:), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
       hold off;
-          
+      
+      % Perform matching to find the closest expression to the current
+      % keypoints
+      exp_map = find_exp(bbox, KP_avg, exp_models, neutral_avg);
+      
+      % plot the correlation to the expression models
+      axes(handles.axes3); %set the current axes to axes3
+      bar(exp_map,'r'); axis([0 5 0 1]);
+      xlabel('Happiness                    Sadness                   Surprise                     Anger');
+      
       % Check to perform calibration
       Cal_flag   = get(handles.togglebutton1,'Value');
       if Cal_flag
          cal_cnt = 1+cal_cnt;
+         % store speed and accuracy data to file
+         fprintf(fid,'Keypoint Speed: %f\n', t1*1000);
+         kp_err = sum(sqrt((KP(1,:)-KP_avg(1,:)).^2+(KP(2,:)-KP_avg(2,:)).^2));
+         fprintf(fid,'Keypoint Error: %f\n\n', kp_err);
          % store keypoints to neutral model
          neutral_model(:,:,cal_cnt) = KP_avg;
+         bbox_avg(:,cal_cnt) = bbox;
          if(cal_cnt>100)
              model_sum = zeros(2,15);
+             bbox_sum = zeros(4,1);
              for f=1:100
                model_sum = neutral_model(:,:,f)+model_sum;
+               bbox_sum = bbox_avg(:,f)+bbox_sum;
              end
              neutral_avg = model_sum./100;
+             bbox_sum = bbox_sum./100;
              set(handles.togglebutton1,'Value',0);
              figure; imshow(gr,[]);
              hold on;
              plot(neutral_avg(1, 1), neutral_avg(2, 1), 'b*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'b');
              plot(neutral_avg(1, 2:end), neutral_avg(2, 2:end), 'r*', 'LineWidth', 1, 'MarkerSize', 5, 'MarkerFaceColor', 'r');
              hold off;
-             % normalize neutral model to the center 
-             pause(15);
+             % normalize neutral model to the center
+             %neutral_avg(1,2:end) = (neutral_avg(1,1)-neutral_avg(1,2:end))/bbox_sum(3);
+             %neutral_avg(2,2:end) = (neutral_avg(2,1)-neutral_avg(2,2:end))/bbox_sum(4);
+             %neutral_avg(:,1) = [neutral_avg(1,1)/bbox_sum(3) neutral_avg(2,1)/bbox_sum(4)];
+             neutral_avg(1,:) = (neutral_avg(1,:)-bbox_sum(1))/bbox_sum(3);
+             neutral_avg(2,:) = (neutral_avg(2,:)-bbox_sum(2))/bbox_sum(4);
+             pause(10);
          end   
       else   
          cal_cnt = 1;
