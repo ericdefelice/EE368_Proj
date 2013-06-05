@@ -123,11 +123,16 @@ kp_prev_i = 1;
 neutral_model = zeros(2,15,100);
 neutral_avg = zeros(2,15);
 bbox_avg = zeros(4,100);
+kp_err = zeros(1,100);
+% keypoint mapping for expression detection
+emKPorder=[4, 5, 15, 8, 6, 2, 3, 7, 9, 12];
+exp_map = [0 0 0 0];
+exp_flag = 0;
 % file for data output
 persistent fid;
 fid = fopen('./output_data/data_log.txt','at');
 % algorithm number for keypoint detection
-alg_num = 2;
+alg_num = 1;
 fprintf(fid,'ALG_NUM : %f\n',alg_num);
 % enter processing loop
 while 1
@@ -160,15 +165,20 @@ while 1
       t1 = toc;
       %fprintf(fid,'Keypoint Detection:    Elapsed time %f ms\n', t1*1000);
       
-      if (size(KP,2) == 15)
+      %if (size(KP,2) == 15)
         % if KP_prev is full, average the keypoints over a few frames to smooth them
         if (kp_prev_i == 5)
-          if (nnz(KP) < 15)
-            kp_prev_i = 1;
+          if (nnz(KP) < 30)
+            %kp_prev_i = 1;
+            KP_avg = (KP_prev(1:2,:)+KP_prev(3:4,:))./2;
           else
-            KP_avg = (KP_prev(1:2,:)+KP_prev(3:4,:)+KP)./3;
-            % save the keypoints into the previous keypoint matrix for averaging
-            KP_prev = [KP_prev(3:end,:);KP];
+            %if (mean2(sqrt((KP-KP_prev(3:4,:)).^2)) < ((boxes{1}(3)*boxes{1}(4))/100))
+              KP_avg = (KP_prev(1:2,:)+KP_prev(3:4,:)+KP)./3;
+              % save the keypoints into the previous keypoint matrix for averaging
+              KP_prev = [KP_prev(3:end,:);KP];
+            %else
+            %  KP_avg = KP_prev(3:4,:);
+            %end
           end
         else
           % KP_prev is not full yet, so use current keypoints until then  
@@ -180,10 +190,10 @@ while 1
           end
         end
       %else
-        % reset the average if no keypoints are detected for current bbox
-      %  KP_avg = KP;
+        % use the previous keypoint locations
+      %  KP_avg = KP_prev(3:4,:);
       %  KP_prev = zeros(6,15);
-      end
+      %end
           
       % show keypoints on the original grayscale image
       hold on;
@@ -198,25 +208,22 @@ while 1
       
       % Perform matching to find the closest expression to the current
       % keypoints
-      exp_map = find_exp(bbox, KP_avg, exp_models, neutral_avg);
-      
-      % plot the correlation to the expression models
-      axes(handles.axes3); %set the current axes to axes3
-      bar(exp_map,'r'); axis([0 5 0 1]);
-      xlabel('Happiness                    Sadness                   Surprise                     Anger');
-      
+      %exp_map = find_exp(bbox, KP_avg, exp_models, neutral_avg);
+     
       % Check to perform calibration
       Cal_flag   = get(handles.togglebutton1,'Value');
       if Cal_flag
          cal_cnt = 1+cal_cnt;
          % store speed and accuracy data to file
          fprintf(fid,'Keypoint Speed: %f\n', t1*1000);
-         kp_err = sum(sqrt((KP(1,:)-KP_avg(1,:)).^2+(KP(2,:)-KP_avg(2,:)).^2));
-         fprintf(fid,'Keypoint Error: %f\n\n', kp_err);
+         %kp_err = sum(sqrt((KP(1,:)-KP_avg(1,:)).^2+(KP(2,:)-KP_avg(2,:)).^2));
+         %fprintf(fid,'Keypoint Error: %f\n\n', kp_err);
          % store keypoints to neutral model
          neutral_model(:,:,cal_cnt) = KP_avg;
          bbox_avg(:,cal_cnt) = bbox;
-         if(cal_cnt>100)
+         if(cal_cnt==2)
+           [emotion, exp_map, outMB, nMouthsBrows]=ReadEmotionI(bbox, KP_avg(:,emKPorder)', 1);
+         elseif(cal_cnt>100)
              model_sum = zeros(2,15);
              bbox_sum = zeros(4,1);
              for f=1:100
@@ -225,6 +232,10 @@ while 1
              end
              neutral_avg = model_sum./100;
              bbox_sum = bbox_sum./100;
+             for f=1:100
+               kp_err(f) = sum(sqrt((neutral_model(1,:,f)-neutral_avg(1,:)).^2+(neutral_model(2,:,f)-neutral_avg(2,:)).^2));
+             end
+             fprintf(fid,'Keypoint Error: %f\n', kp_err);
              set(handles.togglebutton1,'Value',0);
              figure; imshow(gr,[]);
              hold on;
@@ -237,11 +248,25 @@ while 1
              %neutral_avg(:,1) = [neutral_avg(1,1)/bbox_sum(3) neutral_avg(2,1)/bbox_sum(4)];
              neutral_avg(1,:) = (neutral_avg(1,:)-bbox_sum(1))/bbox_sum(3);
              neutral_avg(2,:) = (neutral_avg(2,:)-bbox_sum(2))/bbox_sum(4);
+             exp_flag = 1;
              pause(10);
+         else
+           [emotion, exp_map, outMB, nMouthsBrows]=ReadEmotionI(bbox, KP_avg(:,emKPorder)', 1, nMouthsBrows, outMB, emotion, exp_map);
          end   
-      else   
-         cal_cnt = 1;
+      else
+        %fprintf('In loop\n');
+        %[emotion, exp_map, outMB, nMouthsBrows]=ReadEmotionI(bbox, KP_avg(:,emKPorder)', 0, nMouthsBrows, outMB, emotion, exp_map);
+        if (exp_flag)
+          [emotion, exp_map, outMB, nMouthsBrows]=ReadEmotionI(bbox, KP_avg(:,emKPorder)', 0, nMouthsBrows, outMB, emotion, exp_map);
+          %fprintf('Calulating expression . . .\n');
+        end
+        cal_cnt = 1;
       end
+      
+      % plot the correlation to the expression models
+      axes(handles.axes3); %set the current axes to axes3
+      bar(exp_map,'r'); axis([0 5 0 1]);
+      xlabel('Happiness                    Sadness                   Surprise                     Anger');
       
       % If the 'Cease' button is pressed, stop loop
       if flag_stop

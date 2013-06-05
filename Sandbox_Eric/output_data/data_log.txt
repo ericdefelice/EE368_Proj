@@ -1,1208 +1,3290 @@
 
-ALG_NUM : 1.000000
-Keypoint Speed: 81.896534
-Keypoint Error: 421.966914
-
-Keypoint Speed: 70.727142
-Keypoint Error: 9.152049
-
-Keypoint Speed: 71.786027
-Keypoint Error: 836.491966
-
-Keypoint Speed: 68.959209
-Keypoint Error: 426.743499
-
-Keypoint Speed: 87.391763
-Keypoint Error: 17.795099
-
-Keypoint Speed: 86.296733
-Keypoint Error: 841.898815
-
-Keypoint Speed: 77.916677
-Keypoint Error: 427.318983
-
-Keypoint Speed: 80.138864
-Keypoint Error: 431.555795
-
-Keypoint Speed: 83.325785
-Keypoint Error: 15.359706
-
-Keypoint Speed: 76.378102
-Keypoint Error: 21.870958
-
-Keypoint Speed: 66.903462
-Keypoint Error: 23.965383
-
-Keypoint Speed: 72.985473
-Keypoint Error: 24.104369
-
-Keypoint Speed: 74.259438
-Keypoint Error: 28.860507
-
-Keypoint Speed: 66.683921
-Keypoint Error: 22.553483
-
-Keypoint Speed: 62.792861
-Keypoint Error: 850.575241
-
-Keypoint Speed: 68.371534
-Keypoint Error: 426.016458
-
-Keypoint Speed: 81.451651
-Keypoint Error: 434.616716
-
-Keypoint Speed: 61.828575
-Keypoint Error: 23.028805
-
-Keypoint Speed: 84.597072
-Keypoint Error: 22.123343
-
-Keypoint Speed: 89.094102
-Keypoint Error: 19.637646
-
-Keypoint Speed: 62.935206
-Keypoint Error: 12.749835
-
-Keypoint Speed: 80.603382
-Keypoint Error: 11.688848
-
-Keypoint Speed: 83.704628
-Keypoint Error: 20.038688
-
-Keypoint Speed: 76.519108
-Keypoint Error: 13.039576
-
-Keypoint Speed: 71.493306
-Keypoint Error: 14.538352
-
-Keypoint Speed: 69.819972
-Keypoint Error: 5.348814
-
-Keypoint Speed: 91.840154
-Keypoint Error: 23.484932
-
-Keypoint Speed: 60.921851
-Keypoint Error: 843.926853
-
-Keypoint Speed: 76.258961
-Keypoint Error: 427.123098
-
-Keypoint Speed: 56.431515
-Keypoint Error: 428.125448
-
-Keypoint Speed: 89.104365
-Keypoint Error: 23.380265
-
-Keypoint Speed: 61.329698
-Keypoint Error: 841.693658
-
-Keypoint Speed: 85.942879
-Keypoint Error: 429.409495
-
-Keypoint Speed: 79.535126
-Keypoint Error: 429.606730
-
-Keypoint Speed: 71.528557
-Keypoint Error: 26.810354
-
-Keypoint Speed: 85.630077
-Keypoint Error: 20.035977
-
-Keypoint Speed: 76.238434
-Keypoint Error: 832.467944
-
-Keypoint Speed: 83.981732
-Keypoint Error: 426.412821
-
-Keypoint Speed: 72.730680
-Keypoint Error: 420.753161
-
-Keypoint Speed: 88.588978
-Keypoint Error: 426.516649
-
-Keypoint Speed: 89.732646
-Keypoint Error: 424.711987
-
-Keypoint Speed: 88.978530
-Keypoint Error: 33.251601
-
-Keypoint Speed: 78.645358
-Keypoint Error: 33.928934
-
-Keypoint Speed: 79.517277
-Keypoint Error: 17.251277
-
-Keypoint Speed: 79.598489
-Keypoint Error: 844.893351
-
-Keypoint Speed: 95.473743
-Keypoint Error: 428.936392
-
-Keypoint Speed: 83.060729
-Keypoint Error: 17.003217
-
-Keypoint Speed: 83.611813
-Keypoint Error: 837.658425
-
-Keypoint Speed: 79.488718
-Keypoint Error: 431.645796
-
-Keypoint Speed: 68.988213
-Keypoint Error: 427.816585
-
-Keypoint Speed: 69.994891
-Keypoint Error: 419.872634
-
-Keypoint Speed: 82.237448
-Keypoint Error: 10.768340
-
-Keypoint Speed: 76.715446
-Keypoint Error: 19.330544
-
-Keypoint Speed: 79.240619
-Keypoint Error: 837.470682
-
-Keypoint Speed: 83.329801
-Keypoint Error: 422.956683
-
-Keypoint Speed: 74.939035
-Keypoint Error: 423.693350
-
-Keypoint Speed: 81.905905
-Keypoint Error: 11.041517
-
-Keypoint Speed: 73.811877
-Keypoint Error: 9.483580
-
-Keypoint Speed: 80.720738
-Keypoint Error: 8.612389
-
-Keypoint Speed: 87.432369
-Keypoint Error: 10.991529
-
-Keypoint Speed: 74.298706
-Keypoint Error: 18.338030
-
-Keypoint Speed: 71.839574
-Keypoint Error: 26.223382
-
-Keypoint Speed: 75.847544
-Keypoint Error: 16.873509
-
-Keypoint Speed: 74.926987
-Keypoint Error: 14.872905
-
-Keypoint Speed: 81.567669
-Keypoint Error: 17.520696
-
-Keypoint Speed: 100.522303
-Keypoint Error: 23.109287
-
-Keypoint Speed: 87.588993
-Keypoint Error: 21.091381
-
-Keypoint Speed: 68.508078
-Keypoint Error: 32.795145
-
-Keypoint Speed: 84.615367
-Keypoint Error: 26.146659
-
-Keypoint Speed: 100.346045
-Keypoint Error: 27.431070
-
-Keypoint Speed: 73.779303
-Keypoint Error: 838.704669
-
-Keypoint Speed: 76.268331
-Keypoint Error: 423.514523
-
-Keypoint Speed: 74.284873
-Keypoint Error: 427.181133
-
-Keypoint Speed: 83.377547
-Keypoint Error: 18.120501
-
-Keypoint Speed: 78.071962
-Keypoint Error: 20.311087
-
-Keypoint Speed: 76.570424
-Keypoint Error: 835.159141
-
-Keypoint Speed: 62.095862
-Keypoint Error: 430.248148
-
-Keypoint Speed: 65.544715
-Keypoint Error: 432.159923
-
-Keypoint Speed: 84.493103
-Keypoint Error: 411.708075
-
-Keypoint Speed: 76.829679
-Keypoint Error: 422.479321
-
-Keypoint Speed: 76.890365
-Keypoint Error: 11.800287
-
-Keypoint Speed: 89.716582
-Keypoint Error: 25.440459
-
-Keypoint Speed: 79.490503
-Keypoint Error: 18.294012
-
-Keypoint Speed: 96.624997
-Keypoint Error: 18.762971
-
-Keypoint Speed: 70.682966
-Keypoint Error: 15.032326
-
-Keypoint Speed: 93.218535
-Keypoint Error: 10.494838
-
-Keypoint Speed: 91.053018
-Keypoint Error: 21.260077
-
-Keypoint Speed: 107.480695
-Keypoint Error: 14.832758
-
-Keypoint Speed: 78.685072
-Keypoint Error: 20.918838
-
-Keypoint Speed: 94.885622
-Keypoint Error: 16.714919
-
-Keypoint Speed: 87.198103
-Keypoint Error: 20.504936
-
-Keypoint Speed: 95.873112
-Keypoint Error: 18.501599
-
-Keypoint Speed: 84.401181
-Keypoint Error: 17.486850
-
-Keypoint Speed: 75.932772
-Keypoint Error: 20.191434
-
-Keypoint Speed: 79.222324
-Keypoint Error: 14.100934
-
-Keypoint Speed: 91.172606
-Keypoint Error: 25.392797
-
-Keypoint Speed: 82.104920
-Keypoint Error: 13.736018
-
-Keypoint Speed: 74.444620
-Keypoint Error: 9.814927
-
-Keypoint Speed: 73.275518
-Keypoint Error: 4.051084
-
-Keypoint Speed: 71.362116
-Keypoint Error: 830.980262
-
-Keypoint Speed: 59.753194
-Keypoint Error: 20.069932
-
-Keypoint Speed: 52.018822
-Keypoint Error: 808.357998
-
-Keypoint Speed: 61.188692
-Keypoint Error: 405.820449
-
-Keypoint Speed: 67.014125
-Keypoint Error: 405.816209
-
-Keypoint Speed: 55.119621
-Keypoint Error: 21.000050
-
-Keypoint Speed: 52.639963
-Keypoint Error: 17.720798
-
-Keypoint Speed: 55.480169
-Keypoint Error: 17.076006
-
-Keypoint Speed: 54.546672
-Keypoint Error: 806.906234
-
-Keypoint Speed: 68.560286
-Keypoint Error: 407.482405
-
-Keypoint Speed: 64.790153
-Keypoint Error: 419.127755
-
-Keypoint Speed: 60.727744
-Keypoint Error: 22.936992
-
-Keypoint Speed: 57.690308
-Keypoint Error: 19.076682
-
-Keypoint Speed: 65.272965
-Keypoint Error: 13.483429
-
-Keypoint Speed: 58.398909
-Keypoint Error: 15.462683
-
-Keypoint Speed: 54.194602
-Keypoint Error: 15.432831
-
-Keypoint Speed: 50.985817
-Keypoint Error: 11.070079
-
-Keypoint Speed: 69.107801
-Keypoint Error: 13.512727
-
-Keypoint Speed: 66.527743
-Keypoint Error: 17.446646
-
-Keypoint Speed: 52.319129
-Keypoint Error: 12.664352
-
-Keypoint Speed: 58.276644
-Keypoint Error: 48.554873
-
-Keypoint Speed: 53.877784
-Keypoint Error: 32.434616
-
-Keypoint Speed: 58.739377
-Keypoint Error: 23.239892
-
-Keypoint Speed: 64.053886
-Keypoint Error: 20.348333
-
-Keypoint Speed: 64.787475
-Keypoint Error: 20.543728
-
-Keypoint Speed: 61.362272
-Keypoint Error: 19.905262
-
-Keypoint Speed: 60.157026
-Keypoint Error: 23.745845
-
-Keypoint Speed: 56.485954
-Keypoint Error: 18.737601
-
-Keypoint Speed: 54.097772
-Keypoint Error: 9.991271
-
-Keypoint Speed: 58.410957
-Keypoint Error: 17.485428
-
-Keypoint Speed: 57.452472
-Keypoint Error: 15.708526
-
-Keypoint Speed: 73.731111
-Keypoint Error: 12.487800
-
-Keypoint Speed: 56.081677
-Keypoint Error: 7.645497
-
-Keypoint Speed: 64.214972
-Keypoint Error: 11.912175
-
-Keypoint Speed: 64.491184
-Keypoint Error: 10.967138
-
-Keypoint Speed: 61.903094
-Keypoint Error: 18.412897
-
-Keypoint Speed: 63.412664
-Keypoint Error: 18.586006
-
-Keypoint Speed: 58.900017
-Keypoint Error: 15.798424
-
-Keypoint Speed: 68.130574
-Keypoint Error: 16.323825
-
-Keypoint Speed: 64.230144
-Keypoint Error: 18.542719
-
-Keypoint Speed: 71.480365
-Keypoint Error: 11.176927
-
-Keypoint Speed: 63.848177
-Keypoint Error: 18.875493
-
-Keypoint Speed: 75.408907
-Keypoint Error: 18.239760
-
-Keypoint Speed: 78.978686
-Keypoint Error: 13.595064
-
-Keypoint Speed: 85.728246
-Keypoint Error: 10.046964
-
-Keypoint Speed: 72.552191
-Keypoint Error: 21.081845
-
-Keypoint Speed: 75.669055
-Keypoint Error: 12.525189
-
-Keypoint Speed: 60.867858
-Keypoint Error: 16.097917
-
-Keypoint Speed: 79.392334
-Keypoint Error: 20.174938
-
-Keypoint Speed: 78.766731
-Keypoint Error: 26.993542
-
-Keypoint Speed: 58.375260
-Keypoint Error: 20.363760
-
-Keypoint Speed: 56.883538
-Keypoint Error: 15.078385
-
-Keypoint Speed: 56.606880
-Keypoint Error: 11.344512
-
-Keypoint Speed: 56.174491
-Keypoint Error: 13.749680
-
-Keypoint Speed: 56.549764
-Keypoint Error: 11.854906
-
-Keypoint Speed: 65.615218
-Keypoint Error: 11.635096
-
-Keypoint Speed: 57.750548
-Keypoint Error: 9.146807
-
-Keypoint Speed: 56.052226
-Keypoint Error: 18.204820
-
-Keypoint Speed: 64.680828
-Keypoint Error: 13.127135
-
-Keypoint Speed: 62.503263
-Keypoint Error: 13.449880
-
-Keypoint Speed: 55.794756
-Keypoint Error: 10.854820
-
-Keypoint Speed: 55.701049
-Keypoint Error: 14.770018
-
-Keypoint Speed: 76.787288
-Keypoint Error: 7.890718
-
-Keypoint Speed: 57.017851
-Keypoint Error: 27.727016
-
-Keypoint Speed: 61.732637
-Keypoint Error: 813.556536
-
-Keypoint Speed: 80.745727
-Keypoint Error: 419.630583
-
-Keypoint Speed: 59.061550
-Keypoint Error: 421.216830
-
-Keypoint Speed: 89.455988
-Keypoint Error: 11.702175
-
-Keypoint Speed: 76.648513
-Keypoint Error: 810.575861
-
-Keypoint Speed: 54.418159
-Keypoint Error: 414.112509
-
-Keypoint Speed: 74.931449
-Keypoint Error: 411.367733
-
-Keypoint Speed: 59.352040
-Keypoint Error: 22.340046
-
-Keypoint Speed: 87.964267
-Keypoint Error: 18.006748
-
-Keypoint Speed: 67.347900
-Keypoint Error: 18.306409
-
-Keypoint Speed: 70.904738
-Keypoint Error: 8.906256
-
-Keypoint Speed: 67.742806
-Keypoint Error: 15.794153
-
-Keypoint Speed: 101.029658
-Keypoint Error: 814.505209
-
-Keypoint Speed: 65.350608
-Keypoint Error: 415.823288
-
-Keypoint Speed: 86.909397
-Keypoint Error: 412.999119
-
-Keypoint Speed: 78.606090
-Keypoint Error: 5.237330
-
-Keypoint Speed: 86.382854
-Keypoint Error: 19.321871
-
-Keypoint Speed: 97.803916
-Keypoint Error: 12.628159
-
-Keypoint Speed: 98.486637
-Keypoint Error: 16.544456
-
-Keypoint Speed: 66.689275
-Keypoint Error: 13.040215
-
-Keypoint Speed: 70.717325
-Keypoint Error: 10.898787
-
-Keypoint Speed: 81.920630
-Keypoint Error: 15.068099
-
-Keypoint Speed: 59.244501
-Keypoint Error: 20.374157
-
-Keypoint Speed: 65.807094
-Keypoint Error: 20.273239
-
-Keypoint Speed: 77.709630
-Keypoint Error: 15.006307
-
-Keypoint Speed: 61.803586
-Keypoint Error: 812.535598
-
-Keypoint Speed: 79.082210
-Keypoint Error: 409.032144
-
-Keypoint Speed: 70.761055
-Keypoint Error: 416.147245
-
-Keypoint Speed: 65.376935
-Keypoint Error: 20.046827
-
-Keypoint Speed: 70.849407
-Keypoint Error: 11.458451
-
-Keypoint Speed: 65.231467
-Keypoint Error: 14.575248
-
-Keypoint Speed: 66.004324
-Keypoint Error: 13.768272
-
-Keypoint Speed: 72.334881
-Keypoint Error: 11.841875
-
-Keypoint Speed: 79.102290
-Keypoint Error: 17.768138
-
-Keypoint Speed: 67.044468
-Keypoint Error: 15.945301
-
-Keypoint Speed: 67.247053
-Keypoint Error: 814.035040
-
-Keypoint Speed: 63.134668
-Keypoint Error: 412.402358
-
 ALG_NUM : 2.000000
-Keypoint Speed: 49.389233
-Keypoint Error: 28.289868
-
-Keypoint Speed: 48.255382
-Keypoint Error: 20.443272
-
-Keypoint Speed: 49.735502
-Keypoint Error: 20.611504
-
-Keypoint Speed: 49.179062
-Keypoint Error: 18.026061
-
-Keypoint Speed: 50.267845
-Keypoint Error: 18.647843
-
-Keypoint Speed: 48.651181
-Keypoint Error: 15.726623
-
-Keypoint Speed: 48.705174
-Keypoint Error: 14.087380
-
-Keypoint Speed: 47.975601
-Keypoint Error: 32.680769
-
-Keypoint Speed: 47.636472
-Keypoint Error: 20.770530
-
-Keypoint Speed: 47.786402
-Keypoint Error: 37.420879
-
-Keypoint Speed: 49.644472
-Keypoint Error: 26.804815
-
-Keypoint Speed: 46.494142
-Keypoint Error: 27.366194
-
-Keypoint Speed: 46.233995
-Keypoint Error: 23.672626
-
-Keypoint Speed: 47.014884
-Keypoint Error: 24.589483
-
-Keypoint Speed: 47.741334
-Keypoint Error: 21.429751
-
-Keypoint Speed: 48.005497
-Keypoint Error: 18.456916
-
-Keypoint Speed: 45.287557
-Keypoint Error: 23.733566
-
-Keypoint Speed: 45.617315
-Keypoint Error: 22.625545
-
-Keypoint Speed: 48.175062
-Keypoint Error: 20.943741
-
-Keypoint Speed: 47.071108
-Keypoint Error: 16.146416
-
-Keypoint Speed: 47.739549
-Keypoint Error: 21.637375
-
-Keypoint Speed: 45.789557
-Keypoint Error: 28.180471
-
-Keypoint Speed: 46.890388
-Keypoint Error: 21.489342
-
-Keypoint Speed: 47.250489
-Keypoint Error: 31.979068
-
-Keypoint Speed: 47.481186
-Keypoint Error: 20.539070
-
-Keypoint Speed: 48.665014
-Keypoint Error: 22.384943
-
-Keypoint Speed: 47.391049
-Keypoint Error: 23.906456
-
-Keypoint Speed: 47.371415
-Keypoint Error: 26.087712
-
-Keypoint Speed: 48.646273
-Keypoint Error: 18.529107
-
-Keypoint Speed: 48.134902
-Keypoint Error: 16.761261
-
-Keypoint Speed: 48.176401
-Keypoint Error: 22.990971
-
-Keypoint Speed: 46.939472
-Keypoint Error: 18.246362
-
-Keypoint Speed: 46.812745
-Keypoint Error: 18.020657
-
-Keypoint Speed: 47.331255
-Keypoint Error: 14.059229
-
-Keypoint Speed: 46.501728
-Keypoint Error: 20.023849
-
-Keypoint Speed: 49.206728
-Keypoint Error: 23.435863
-
-Keypoint Speed: 46.909129
-Keypoint Error: 18.721825
-
-Keypoint Speed: 50.550304
-Keypoint Error: 19.415569
-
-Keypoint Speed: 47.325901
-Keypoint Error: 16.557232
-
-Keypoint Speed: 46.086295
-Keypoint Error: 17.173638
-
-Keypoint Speed: 45.270154
-Keypoint Error: 14.780340
-
-Keypoint Speed: 45.700759
-Keypoint Error: 23.583534
-
-Keypoint Speed: 46.299143
-Keypoint Error: 15.259339
-
-Keypoint Speed: 46.155459
-Keypoint Error: 20.316201
-
-Keypoint Speed: 49.029578
-Keypoint Error: 22.489777
-
-Keypoint Speed: 47.443703
-Keypoint Error: 15.507625
-
-Keypoint Speed: 47.079140
-Keypoint Error: 21.013282
-
-Keypoint Speed: 47.247366
-Keypoint Error: 25.653689
-
-Keypoint Speed: 47.311622
-Keypoint Error: 26.255887
-
-Keypoint Speed: 47.958644
-Keypoint Error: 20.637803
-
-Keypoint Speed: 46.643180
-Keypoint Error: 18.369482
-
-Keypoint Speed: 49.198250
-Keypoint Error: 20.089057
-
-Keypoint Speed: 48.516422
-Keypoint Error: 19.553969
-
-Keypoint Speed: 47.572216
-Keypoint Error: 21.221454
-
-Keypoint Speed: 47.745796
-Keypoint Error: 63.397386
-
-Keypoint Speed: 48.381663
-Keypoint Error: 31.374324
-
-Keypoint Speed: 49.792618
-Keypoint Error: 34.712685
-
-Keypoint Speed: 47.751151
-Keypoint Error: 31.669169
-
-Keypoint Speed: 47.438795
-Keypoint Error: 44.881879
-
-Keypoint Speed: 47.731071
-Keypoint Error: 13.160498
-
-Keypoint Speed: 47.024701
-Keypoint Error: 25.704101
-
-Keypoint Speed: 50.677477
-Keypoint Error: 21.677253
-
-Keypoint Speed: 51.063906
-Keypoint Error: 24.416149
-
-Keypoint Speed: 48.955505
-Keypoint Error: 20.067153
-
-Keypoint Speed: 49.529347
-Keypoint Error: 19.173403
-
-Keypoint Speed: 46.107714
-Keypoint Error: 16.329693
-
-Keypoint Speed: 47.747581
-Keypoint Error: 18.931189
-
-Keypoint Speed: 47.317423
-Keypoint Error: 19.041945
-
-Keypoint Speed: 47.311175
-Keypoint Error: 18.670345
-
-Keypoint Speed: 48.302682
-Keypoint Error: 23.132588
-
-Keypoint Speed: 48.486079
-Keypoint Error: 21.215289
-
-Keypoint Speed: 48.105451
-Keypoint Error: 24.473116
-
-Keypoint Speed: 48.415130
-Keypoint Error: 22.977041
-
-Keypoint Speed: 49.435640
-Keypoint Error: 18.841620
-
-Keypoint Speed: 47.601220
-Keypoint Error: 19.285795
-
-Keypoint Speed: 46.898420
-Keypoint Error: 22.080482
-
-Keypoint Speed: 47.228178
-Keypoint Error: 22.989953
-
-Keypoint Speed: 46.363399
-Keypoint Error: 23.159983
-
-Keypoint Speed: 48.579339
-Keypoint Error: 24.625539
-
-Keypoint Speed: 46.997035
-Keypoint Error: 20.376444
-
-Keypoint Speed: 46.505744
-Keypoint Error: 17.726353
-
-Keypoint Speed: 49.753797
-Keypoint Error: 16.919472
-
-Keypoint Speed: 48.287956
-Keypoint Error: 24.851890
-
-Keypoint Speed: 45.586972
-Keypoint Error: 23.805957
-
-Keypoint Speed: 47.915807
-Keypoint Error: 18.105834
-
-Keypoint Speed: 47.309837
-Keypoint Error: 14.108400
-
-Keypoint Speed: 63.797308
-Keypoint Error: 18.694480
-
-Keypoint Speed: 49.712298
-Keypoint Error: 22.396838
-
-Keypoint Speed: 46.881017
-Keypoint Error: 20.730932
-
-Keypoint Speed: 48.548104
-Keypoint Error: 30.800745
-
-Keypoint Speed: 70.877965
-Keypoint Error: 23.867843
-
-Keypoint Speed: 46.979632
-Keypoint Error: 28.394346
-
-Keypoint Speed: 62.844177
-Keypoint Error: 26.338549
-
-Keypoint Speed: 48.445919
-Keypoint Error: 24.715550
-
-Keypoint Speed: 46.792219
-Keypoint Error: 15.813422
-
-Keypoint Speed: 58.941516
-Keypoint Error: 25.269877
-
-Keypoint Speed: 50.968414
-Keypoint Error: 18.609472
-
-Keypoint Speed: 48.475816
-Keypoint Error: 18.427353
-
-Keypoint Speed: 47.226839
-Keypoint Error: 20.806849
-
-Keypoint Speed: 54.444487
-Keypoint Error: 20.572164
-
-Keypoint Speed: 48.930070
-Keypoint Error: 26.802619
-
-Keypoint Speed: 48.237979
-Keypoint Error: 15.830506
-
-Keypoint Speed: 47.294665
-Keypoint Error: 20.133572
-
-Keypoint Speed: 48.546319
-Keypoint Error: 18.018949
-
-Keypoint Speed: 50.798403
-Keypoint Error: 22.858980
-
-Keypoint Speed: 49.428947
-Keypoint Error: 18.105852
-
-Keypoint Speed: 48.392818
-Keypoint Error: 25.397002
-
-Keypoint Speed: 46.632025
-Keypoint Error: 23.706931
-
-Keypoint Speed: 47.204082
-Keypoint Error: 25.263452
-
-Keypoint Speed: 46.911360
-Keypoint Error: 23.408324
-
-Keypoint Speed: 48.725700
-Keypoint Error: 23.201460
-
-Keypoint Speed: 47.937225
-Keypoint Error: 21.427953
-
-Keypoint Speed: 47.009529
-Keypoint Error: 24.394419
-
-Keypoint Speed: 46.581602
-Keypoint Error: 28.606541
-
-Keypoint Speed: 46.489234
-Keypoint Error: 14.607840
-
-Keypoint Speed: 45.789111
-Keypoint Error: 19.583227
-
-Keypoint Speed: 47.830132
-Keypoint Error: 16.539558
-
-Keypoint Speed: 47.414699
-Keypoint Error: 24.794714
-
-Keypoint Speed: 47.722146
-Keypoint Error: 23.830506
-
-Keypoint Speed: 47.889033
-Keypoint Error: 25.164949
-
-Keypoint Speed: 47.692249
-Keypoint Error: 23.826918
-
-Keypoint Speed: 47.552582
-Keypoint Error: 22.136579
-
-Keypoint Speed: 46.994358
-Keypoint Error: 23.418355
-
-Keypoint Speed: 48.284833
-Keypoint Error: 17.743609
-
-Keypoint Speed: 47.673062
-Keypoint Error: 15.042624
-
-Keypoint Speed: 49.550319
-Keypoint Error: 28.112163
-
-Keypoint Speed: 48.521777
-Keypoint Error: 20.114463
-
-Keypoint Speed: 47.926070
-Keypoint Error: 30.472681
-
-Keypoint Speed: 47.457090
-Keypoint Error: 15.629380
-
-Keypoint Speed: 50.094264
-Keypoint Error: 22.406755
-
-Keypoint Speed: 48.262968
-Keypoint Error: 25.718565
-
-Keypoint Speed: 49.327208
-Keypoint Error: 15.976953
-
-Keypoint Speed: 48.433425
-Keypoint Error: 47.320734
-
-Keypoint Speed: 50.338348
-Keypoint Error: 44.479464
-
-Keypoint Speed: 48.637348
-Keypoint Error: 40.910124
-
-Keypoint Speed: 49.055459
-Keypoint Error: 16.996173
-
-Keypoint Speed: 47.377663
-Keypoint Error: 18.674005
-
-Keypoint Speed: 47.548120
-Keypoint Error: 23.592312
-
-Keypoint Speed: 50.239733
-Keypoint Error: 22.224756
-
-Keypoint Speed: 47.735087
-Keypoint Error: 32.194833
-
-Keypoint Speed: 47.027824
-Keypoint Error: 22.754081
-
-Keypoint Speed: 48.174170
-Keypoint Error: 31.374240
-
-Keypoint Speed: 46.995250
-Keypoint Error: 17.544469
-
-Keypoint Speed: 47.476724
-Keypoint Error: 31.797832
-
-Keypoint Speed: 48.932301
-Keypoint Error: 13.575742
-
-Keypoint Speed: 47.934994
-Keypoint Error: 17.123095
-
-Keypoint Speed: 48.202728
-Keypoint Error: 26.970276
-
-Keypoint Speed: 47.562845
-Keypoint Error: 18.869668
-
-Keypoint Speed: 49.299096
-Keypoint Error: 24.880655
-
-Keypoint Speed: 45.847120
-Keypoint Error: 18.389943
-
-Keypoint Speed: 47.971585
-Keypoint Error: 22.592242
-
-Keypoint Speed: 47.300912
-Keypoint Error: 25.421519
-
-Keypoint Speed: 48.281709
-Keypoint Error: 27.371192
-
-Keypoint Speed: 49.341041
-Keypoint Error: 18.475453
-
-Keypoint Speed: 47.094758
-Keypoint Error: 22.281540
-
-Keypoint Speed: 48.948365
-Keypoint Error: 26.351428
-
-Keypoint Speed: 49.060813
-Keypoint Error: 28.711130
-
-Keypoint Speed: 48.760506
-Keypoint Error: 24.719850
-
-Keypoint Speed: 48.146950
-Keypoint Error: 24.071051
-
-Keypoint Speed: 48.810036
-Keypoint Error: 22.472166
-
-Keypoint Speed: 47.772123
-Keypoint Error: 27.459810
-
-Keypoint Speed: 48.312498
-Keypoint Error: 14.950485
-
-Keypoint Speed: 47.128224
-Keypoint Error: 22.322132
-
-Keypoint Speed: 49.414668
-Keypoint Error: 22.505864
-
-Keypoint Speed: 47.449504
-Keypoint Error: 22.940783
-
-Keypoint Speed: 49.116591
-Keypoint Error: 17.063137
-
-Keypoint Speed: 48.846627
-Keypoint Error: 25.131594
-
-Keypoint Speed: 47.225501
-Keypoint Error: 26.982578
-
-Keypoint Speed: 47.404436
-Keypoint Error: 23.925690
-
-Keypoint Speed: 47.862260
-Keypoint Error: 21.920259
-
-Keypoint Speed: 47.556598
-Keypoint Error: 25.290942
-
+Keypoint Speed: 47.370077
+Keypoint Speed: 47.646288
+Keypoint Speed: 45.506206
+Keypoint Speed: 46.572231
+Keypoint Speed: 45.696743
+Keypoint Speed: 46.748489
+Keypoint Speed: 46.952859
+Keypoint Speed: 48.869830
+Keypoint Speed: 46.171077
+Keypoint Speed: 63.386783
+Keypoint Speed: 48.673492
+Keypoint Speed: 48.104559
+Keypoint Speed: 48.532040
+Keypoint Speed: 51.517268
+Keypoint Speed: 47.848873
+Keypoint Speed: 48.493219
+Keypoint Speed: 46.991234
+Keypoint Speed: 47.613268
+Keypoint Speed: 48.467338
+Keypoint Speed: 47.974708
+Keypoint Speed: 47.767215
+Keypoint Speed: 47.428086
+Keypoint Speed: 44.585649
+Keypoint Speed: 46.368308
+Keypoint Speed: 45.896650
+Keypoint Speed: 46.473616
+Keypoint Speed: 47.349104
+Keypoint Speed: 46.511099
+Keypoint Speed: 45.923424
+Keypoint Speed: 47.054598
+Keypoint Speed: 45.052398
+Keypoint Speed: 45.482556
+Keypoint Speed: 45.601251
+Keypoint Speed: 47.633348
+Keypoint Speed: 46.429886
+Keypoint Speed: 47.712776
+Keypoint Speed: 46.694050
+Keypoint Speed: 47.332148
+Keypoint Speed: 49.078662
+Keypoint Speed: 46.208114
+Keypoint Speed: 47.146073
+Keypoint Speed: 47.798004
+Keypoint Speed: 48.648950
+Keypoint Speed: 46.984094
+Keypoint Speed: 47.127332
+Keypoint Speed: 46.485664
+Keypoint Speed: 46.652551
+Keypoint Speed: 47.436118
+Keypoint Speed: 46.711453
+Keypoint Speed: 47.009975
+Keypoint Speed: 47.241119
+Keypoint Speed: 47.433887
+Keypoint Speed: 44.957799
+Keypoint Speed: 46.730640
+Keypoint Speed: 46.327255
+Keypoint Speed: 47.428532
+Keypoint Speed: 48.091618
+Keypoint Speed: 46.279063
+Keypoint Speed: 45.454890
+Keypoint Speed: 46.905113
+Keypoint Speed: 47.300466
+Keypoint Speed: 47.145627
+Keypoint Speed: 46.852459
+Keypoint Speed: 47.167938
+Keypoint Speed: 45.669523
+Keypoint Speed: 44.870339
+Keypoint Speed: 46.802036
+Keypoint Speed: 45.670416
+Keypoint Speed: 45.703882
+Keypoint Speed: 47.229517
+Keypoint Speed: 45.389742
+Keypoint Speed: 46.119315
+Keypoint Speed: 46.307621
+Keypoint Speed: 46.994804
+Keypoint Speed: 109.612300
+Keypoint Speed: 45.881033
+Keypoint Speed: 46.742242
+Keypoint Speed: 46.783294
+Keypoint Speed: 46.203651
+Keypoint Speed: 47.551243
+Keypoint Speed: 46.598112
+Keypoint Speed: 45.687372
+Keypoint Speed: 45.190280
+Keypoint Speed: 47.425408
+Keypoint Speed: 46.582494
+Keypoint Speed: 64.374720
+Keypoint Speed: 45.839088
+Keypoint Speed: 47.082710
+Keypoint Speed: 46.644965
+Keypoint Speed: 51.643102
+Keypoint Speed: 46.142519
+Keypoint Speed: 46.952413
+Keypoint Speed: 46.158137
+Keypoint Speed: 44.935934
+Keypoint Speed: 45.052844
+Keypoint Speed: 46.572677
+Keypoint Speed: 108.567693
+Keypoint Speed: 46.525824
+Keypoint Speed: 45.431240
+Keypoint Speed: 45.441504
+Keypoint Speed: 47.881001
+Keypoint Speed: 46.889049
+Keypoint Speed: 46.630686
+Keypoint Speed: 47.879217
+Keypoint Speed: 46.281740
+Keypoint Speed: 46.626670
+Keypoint Speed: 46.035426
+Keypoint Speed: 47.111714
+Keypoint Speed: 46.598112
+Keypoint Speed: 47.022916
+ALG_NUM : 2.000000
+Keypoint Speed: 51.494510
+Keypoint Speed: 52.629700
+Keypoint Speed: 51.930023
+Keypoint Speed: 49.946565
+Keypoint Speed: 50.115237
+Keypoint Speed: 48.620392
+Keypoint Speed: 49.768968
+Keypoint Speed: 46.717700
+Keypoint Speed: 126.689231
+Keypoint Speed: 46.553936
+Keypoint Speed: 46.153228
+Keypoint Speed: 47.071554
+Keypoint Speed: 47.395511
+Keypoint Speed: 46.723501
+Keypoint Speed: 47.975154
+Keypoint Speed: 45.616423
+Keypoint Speed: 48.165691
+Keypoint Speed: 45.449536
+Keypoint Speed: 45.850690
+Keypoint Speed: 45.296481
+Keypoint Speed: 46.186249
+Keypoint Speed: 47.301805
+Keypoint Speed: 47.229963
+Keypoint Speed: 45.846674
+Keypoint Speed: 47.978724
+Keypoint Speed: 46.004190
+Keypoint Speed: 48.764076
 Keypoint Speed: 48.001928
-Keypoint Error: 15.942167
+Keypoint Speed: 45.726640
+Keypoint Speed: 45.956444
+Keypoint Speed: 46.683341
+Keypoint Speed: 44.432595
+Keypoint Speed: 48.023346
+Keypoint Speed: 46.868523
+Keypoint Speed: 47.345088
+Keypoint Speed: 47.419607
+Keypoint Speed: 46.157691
+Keypoint Speed: 49.350412
+Keypoint Speed: 46.155906
+Keypoint Speed: 45.923424
+Keypoint Speed: 46.506190
+Keypoint Speed: 47.044781
+Keypoint Speed: 46.193835
+Keypoint Speed: 48.889910
+Keypoint Speed: 46.975616
+Keypoint Speed: 46.595435
+Keypoint Speed: 45.370108
+Keypoint Speed: 46.586064
+Keypoint Speed: 47.713222
+Keypoint Speed: 46.548581
+Keypoint Speed: 47.283956
+Keypoint Speed: 46.329932
+Keypoint Speed: 45.248736
+Keypoint Speed: 45.806514
+Keypoint Speed: 46.822116
+Keypoint Speed: 47.694480
+Keypoint Speed: 46.001513
+Keypoint Speed: 45.099697
+Keypoint Speed: 46.963122
+Keypoint Speed: 47.527593
+Keypoint Speed: 45.024286
+Keypoint Speed: 45.480771
+Keypoint Speed: 45.242488
+Keypoint Speed: 44.920762
+Keypoint Speed: 45.243827
+Keypoint Speed: 46.087187
+Keypoint Speed: 44.537011
+Keypoint Speed: 47.087618
+Keypoint Speed: 46.437472
+Keypoint Speed: 47.442365
+Keypoint Speed: 48.088495
+Keypoint Speed: 45.739134
+Keypoint Speed: 44.609299
+Keypoint Speed: 46.012668
+Keypoint Speed: 44.932810
+Keypoint Speed: 45.615530
+Keypoint Speed: 45.995266
+Keypoint Speed: 66.348808
+Keypoint Speed: 45.681571
+Keypoint Speed: 47.318761
+Keypoint Speed: 46.372770
+Keypoint Speed: 47.079140
+Keypoint Speed: 45.791342
+Keypoint Speed: 45.356275
+Keypoint Speed: 45.421870
+Keypoint Speed: 45.956890
+Keypoint Speed: 44.665523
+Keypoint Speed: 45.333964
+Keypoint Speed: 44.887742
+Keypoint Speed: 47.070215
+Keypoint Speed: 46.492357
+Keypoint Speed: 44.962261
+Keypoint Speed: 44.235811
+Keypoint Speed: 48.395050
+Keypoint Speed: 46.062199
+Keypoint Speed: 123.167197
+Keypoint Speed: 46.767677
+Keypoint Speed: 47.795773
+Keypoint Speed: 72.381288
+Keypoint Speed: 61.441700
+Keypoint Speed: 52.563213
+Keypoint Speed: 48.856444
+Keypoint Speed: 48.401743
+Keypoint Speed: 45.867646
+Keypoint Speed: 46.570892
+Keypoint Speed: 46.038549
+Keypoint Speed: 45.332179
+Keypoint Speed: 46.218377
+Keypoint Speed: 44.990373
+Keypoint Speed: 47.066199
+Keypoint Speed: 46.744473
+Keypoint Speed: 46.934564
+Keypoint Speed: 44.695866
+Keypoint Speed: 46.080048
+Keypoint Speed: 45.267477
+Keypoint Speed: 45.077832
+Keypoint Speed: 46.484325
+Keypoint Error: 3286.788591
 
-Keypoint Speed: 48.326331
-Keypoint Error: 15.277554
+Keypoint Error: 80.622534
 
-Keypoint Speed: 46.338857
-Keypoint Error: 19.720247
+Keypoint Error: 83.238725
 
-Keypoint Speed: 46.201867
-Keypoint Error: 18.315893
+Keypoint Error: 87.034755
 
-Keypoint Speed: 49.594049
-Keypoint Error: 26.038386
+Keypoint Error: 67.666762
 
-Keypoint Speed: 46.577140
-Keypoint Error: 16.299615
+Keypoint Error: 59.694869
 
-Keypoint Speed: 46.706098
-Keypoint Error: 19.072543
+Keypoint Error: 55.631219
 
-Keypoint Speed: 48.341057
-Keypoint Error: 21.134375
+Keypoint Error: 54.303578
 
-Keypoint Speed: 51.584201
-Keypoint Error: 26.747703
+Keypoint Error: 56.562795
 
-Keypoint Speed: 45.554398
-Keypoint Error: 22.476934
+Keypoint Error: 61.628174
 
-Keypoint Speed: 48.731948
-Keypoint Error: 25.614841
+Keypoint Error: 64.567961
 
-Keypoint Speed: 48.297327
-Keypoint Error: 26.811176
+Keypoint Error: 71.041518
 
-Keypoint Speed: 47.371862
-Keypoint Error: 24.037045
+Keypoint Error: 69.460768
 
-Keypoint Speed: 48.049673
-Keypoint Error: 19.659157
+Keypoint Error: 57.202259
 
-Keypoint Speed: 47.201405
-Keypoint Error: 19.819949
+Keypoint Error: 49.402890
 
-Keypoint Speed: 46.682002
-Keypoint Error: 17.015367
+Keypoint Error: 41.585028
 
-Keypoint Speed: 47.964445
-Keypoint Error: 35.830081
+Keypoint Error: 38.204975
 
-Keypoint Speed: 47.879663
-Keypoint Error: 26.196372
+Keypoint Error: 29.523619
 
-Keypoint Speed: 47.341072
-Keypoint Error: 22.953839
+Keypoint Error: 35.804273
 
-Keypoint Speed: 47.879663
-Keypoint Error: 20.768960
+Keypoint Error: 38.660147
 
-Keypoint Speed: 46.401328
-Keypoint Error: 20.255640
+Keypoint Error: 38.460775
 
-Keypoint Speed: 46.344211
-Keypoint Error: 23.817905
+Keypoint Error: 36.507003
 
-Keypoint Speed: 47.055044
-Keypoint Error: 21.016817
+Keypoint Error: 48.583468
 
-Keypoint Speed: 47.118854
-Keypoint Error: 17.773905
+Keypoint Error: 48.495256
 
-Keypoint Speed: 47.961768
-Keypoint Error: 17.002949
+Keypoint Error: 54.969506
 
-Keypoint Speed: 48.539626
-Keypoint Error: 25.680616
+Keypoint Error: 56.171038
 
-Keypoint Speed: 49.177724
-Keypoint Error: 16.056852
+Keypoint Error: 52.781404
 
-Keypoint Speed: 49.816268
-Keypoint Error: 20.239053
+Keypoint Error: 47.733376
 
-Keypoint Speed: 49.186648
-Keypoint Error: 21.294968
+Keypoint Error: 45.415386
 
+Keypoint Error: 38.687592
+
+Keypoint Error: 33.062353
+
+Keypoint Error: 32.212485
+
+Keypoint Error: 29.528748
+
+Keypoint Error: 30.523305
+
+Keypoint Error: 32.722605
+
+Keypoint Error: 37.201937
+
+Keypoint Error: 43.757502
+
+Keypoint Error: 42.320294
+
+Keypoint Error: 34.849013
+
+Keypoint Error: 26.588503
+
+Keypoint Error: 32.358552
+
+Keypoint Error: 31.782936
+
+Keypoint Error: 30.641940
+
+Keypoint Error: 34.521954
+
+Keypoint Error: 34.893370
+
+Keypoint Error: 22.937186
+
+Keypoint Error: 22.335915
+
+Keypoint Error: 25.733764
+
+Keypoint Error: 29.075099
+
+Keypoint Error: 32.936536
+
+Keypoint Error: 31.008442
+
+Keypoint Error: 39.331498
+
+Keypoint Error: 48.263642
+
+Keypoint Error: 64.250083
+
+Keypoint Error: 53.238912
+
+Keypoint Error: 47.496176
+
+Keypoint Error: 36.206773
+
+Keypoint Error: 32.076518
+
+Keypoint Error: 27.314332
+
+Keypoint Error: 29.104951
+
+Keypoint Error: 29.457566
+
+Keypoint Error: 32.210550
+
+Keypoint Error: 34.913931
+
+Keypoint Error: 34.766379
+
+Keypoint Error: 34.724375
+
+Keypoint Error: 35.592365
+
+Keypoint Error: 31.042336
+
+Keypoint Error: 34.439150
+
+Keypoint Error: 34.140899
+
+Keypoint Error: 32.523296
+
+Keypoint Error: 31.421405
+
+Keypoint Error: 34.650894
+
+Keypoint Error: 26.827215
+
+Keypoint Error: 20.902342
+
+Keypoint Error: 27.311220
+
+Keypoint Error: 24.975832
+
+Keypoint Error: 37.159973
+
+Keypoint Error: 41.362785
+
+Keypoint Error: 44.596128
+
+Keypoint Error: 42.052964
+
+Keypoint Error: 33.271196
+
+Keypoint Error: 32.112026
+
+Keypoint Error: 46.391677
+
+Keypoint Error: 48.167784
+
+Keypoint Error: 44.960677
+
+Keypoint Error: 42.307351
+
+Keypoint Error: 51.338044
+
+Keypoint Error: 54.741477
+
+Keypoint Error: 46.458142
+
+Keypoint Error: 46.608376
+
+Keypoint Error: 46.180882
+
+Keypoint Error: 44.945685
+
+Keypoint Error: 40.009109
+
+Keypoint Error: 40.176017
+
+Keypoint Error: 41.311932
+
+Keypoint Error: 36.761507
+
+Keypoint Error: 40.940196
+
+Keypoint Error: 41.475490
+
+Keypoint Error: 49.687475
+
+Keypoint Error: 38.064986
+
+ALG_NUM : 2.000000
+ALG_NUM : 2.000000
+ALG_NUM : 2.000000
+Keypoint Speed: 46.635148
+Keypoint Speed: 47.848427
+Keypoint Speed: 123.782092
+Keypoint Speed: 66.173888
+Keypoint Speed: 65.590676
+Keypoint Speed: 49.530686
+Keypoint Speed: 51.164306
+Keypoint Speed: 48.767199
+Keypoint Speed: 48.540964
+Keypoint Speed: 72.544159
+Keypoint Speed: 49.886325
+Keypoint Speed: 50.837225
+Keypoint Speed: 53.403004
+Keypoint Speed: 46.809175
+Keypoint Speed: 74.279072
+Keypoint Speed: 45.892188
+Keypoint Speed: 64.476458
+Keypoint Speed: 48.413791
+Keypoint Speed: 63.136899
+Keypoint Speed: 49.167461
+Keypoint Speed: 48.934086
+Keypoint Speed: 55.737193
+Keypoint Speed: 58.746963
+Keypoint Speed: 63.642915
+Keypoint Speed: 47.550797
+Keypoint Speed: 47.596312
+Keypoint Speed: 60.253856
+Keypoint Speed: 54.618513
+Keypoint Speed: 50.516391
+Keypoint Speed: 65.233698
+Keypoint Speed: 51.949657
+Keypoint Speed: 76.893935
+Keypoint Speed: 47.236656
+Keypoint Speed: 48.435656
+Keypoint Speed: 54.144179
+Keypoint Speed: 47.309837
+Keypoint Speed: 47.096989
+Keypoint Speed: 48.037179
+Keypoint Speed: 48.147842
+Keypoint Speed: 51.197326
+Keypoint Speed: 47.630224
+Keypoint Speed: 47.487879
+Keypoint Speed: 48.172831
+Keypoint Speed: 47.524470
+Keypoint Speed: 49.732378
+Keypoint Speed: 47.441026
+Keypoint Speed: 46.161260
+Keypoint Speed: 47.084048
+Keypoint Speed: 101.533443
+Keypoint Speed: 51.430254
+Keypoint Speed: 47.210329
+Keypoint Speed: 46.280848
+Keypoint Speed: 48.066630
+Keypoint Speed: 45.622670
+Keypoint Speed: 66.569688
+Keypoint Speed: 47.058614
+Keypoint Speed: 48.858228
+Keypoint Speed: 47.244242
+Keypoint Speed: 46.004190
+Keypoint Speed: 45.614192
+Keypoint Speed: 46.925639
+Keypoint Speed: 46.655228
+Keypoint Speed: 44.626702
+Keypoint Speed: 49.748888
+Keypoint Speed: 51.962151
+Keypoint Speed: 46.514668
+Keypoint Speed: 46.609714
+Keypoint Speed: 48.358906
+Keypoint Speed: 46.978740
+Keypoint Speed: 47.834594
+Keypoint Speed: 47.296896
+Keypoint Speed: 46.237564
+Keypoint Speed: 46.129579
+Keypoint Speed: 46.194727
+Keypoint Speed: 46.489680
+Keypoint Speed: 45.925655
+Keypoint Speed: 47.137149
+Keypoint Speed: 45.561984
+Keypoint Speed: 47.145181
+Keypoint Speed: 45.240704
+Keypoint Speed: 45.666400
+Keypoint Speed: 48.560598
+Keypoint Speed: 48.195588
+Keypoint Speed: 45.464707
+Keypoint Speed: 47.587833
+Keypoint Speed: 46.988557
+Keypoint Speed: 47.918484
+Keypoint Speed: 48.261183
+Keypoint Speed: 45.563322
+Keypoint Speed: 46.410699
+Keypoint Speed: 48.085817
+Keypoint Speed: 45.589649
+Keypoint Speed: 47.674847
+Keypoint Speed: 47.454413
+Keypoint Speed: 126.006064
+Keypoint Speed: 48.735517
+Keypoint Speed: 45.598574
+Keypoint Speed: 48.280370
+Keypoint Speed: 46.102359
+Keypoint Speed: 44.997512
+Keypoint Error: 3213.379078
+Keypoint Error: 35.464957
+Keypoint Error: 48.995256
+Keypoint Error: 54.660180
+Keypoint Error: 67.151987
+Keypoint Error: 75.619418
+Keypoint Error: 81.475153
+Keypoint Error: 75.445517
+Keypoint Error: 71.716144
+Keypoint Error: 65.652646
+Keypoint Error: 66.206005
+Keypoint Error: 69.520535
+Keypoint Error: 66.385917
+Keypoint Error: 59.614392
+Keypoint Error: 54.510449
+Keypoint Error: 54.819509
+Keypoint Error: 51.920255
+Keypoint Error: 48.520819
+Keypoint Error: 43.329859
+Keypoint Error: 48.295161
+Keypoint Error: 48.337253
+Keypoint Error: 60.023318
+Keypoint Error: 58.190995
+Keypoint Error: 60.052341
+Keypoint Error: 55.154069
+Keypoint Error: 47.855656
+Keypoint Error: 36.481384
+Keypoint Error: 36.185983
+Keypoint Error: 42.103689
+Keypoint Error: 52.989529
+Keypoint Error: 45.975862
+Keypoint Error: 41.019607
+Keypoint Error: 50.346329
+Keypoint Error: 45.749313
+Keypoint Error: 38.702309
+Keypoint Error: 25.015321
+Keypoint Error: 35.598527
+Keypoint Error: 49.792717
+Keypoint Error: 46.338766
+Keypoint Error: 38.084099
+Keypoint Error: 37.243916
+Keypoint Error: 47.826960
+Keypoint Error: 46.845069
+Keypoint Error: 46.715155
+Keypoint Error: 40.985265
+Keypoint Error: 44.800606
+Keypoint Error: 38.482763
+Keypoint Error: 36.343392
+Keypoint Error: 25.883797
+Keypoint Error: 26.665051
+Keypoint Error: 26.356664
+Keypoint Error: 32.484515
+Keypoint Error: 32.745610
+Keypoint Error: 32.179688
+Keypoint Error: 27.209492
+Keypoint Error: 29.836792
+Keypoint Error: 27.382233
+Keypoint Error: 32.130145
+Keypoint Error: 30.245363
+Keypoint Error: 30.848328
+Keypoint Error: 31.330591
+Keypoint Error: 24.648937
+Keypoint Error: 27.754373
+Keypoint Error: 28.229345
+Keypoint Error: 29.118307
+Keypoint Error: 23.407113
+Keypoint Error: 27.434467
+Keypoint Error: 28.941723
+Keypoint Error: 35.807226
+Keypoint Error: 35.983027
+Keypoint Error: 35.384308
+Keypoint Error: 32.608034
+Keypoint Error: 30.835911
+Keypoint Error: 30.683339
+Keypoint Error: 31.671318
+Keypoint Error: 27.775509
+Keypoint Error: 26.613633
+Keypoint Error: 28.711490
+Keypoint Error: 22.893390
+Keypoint Error: 25.004639
+Keypoint Error: 22.147401
+Keypoint Error: 23.824159
+Keypoint Error: 28.085918
+Keypoint Error: 25.650952
+Keypoint Error: 30.168844
+Keypoint Error: 26.447489
+Keypoint Error: 28.941961
+Keypoint Error: 31.821939
+Keypoint Error: 30.075791
+Keypoint Error: 23.727363
+Keypoint Error: 26.670807
+Keypoint Error: 32.054794
+Keypoint Error: 29.068999
+Keypoint Error: 27.221420
+Keypoint Error: 25.019055
+Keypoint Error: 25.404620
+Keypoint Error: 26.685555
+Keypoint Error: 28.391899
+Keypoint Error: 27.342651
+Keypoint Error: 25.106393
+ALG_NUM : 2.000000
+ALG_NUM : 2.000000
+ALG_NUM : 1.000000
+ALG_NUM : 1.000000
+ALG_NUM : 1.000000
+ALG_NUM : 1.000000
+Keypoint Speed: 92.868697
+Keypoint Speed: 83.013429
+Keypoint Speed: 93.456818
+Keypoint Speed: 83.340510
+Keypoint Speed: 90.042770
+Keypoint Speed: 78.425370
+Keypoint Speed: 84.351650
+Keypoint Speed: 84.988856
+Keypoint Speed: 85.578315
+Keypoint Speed: 105.987635
+Keypoint Speed: 83.738987
+Keypoint Speed: 83.746126
+Keypoint Speed: 80.672546
+Keypoint Speed: 71.719540
+Keypoint Speed: 82.696611
+Keypoint Speed: 71.934173
+Keypoint Speed: 79.143788
+Keypoint Speed: 89.608150
+Keypoint Speed: 77.040742
+Keypoint Speed: 75.976502
+Keypoint Speed: 81.544911
+Keypoint Speed: 85.633201
+Keypoint Speed: 81.091995
+Keypoint Speed: 70.703492
+Keypoint Speed: 84.479270
+Keypoint Speed: 89.982530
+Keypoint Speed: 93.596039
+Keypoint Speed: 101.685605
+Keypoint Speed: 75.887704
+Keypoint Speed: 73.014478
+Keypoint Speed: 74.987227
+Keypoint Speed: 75.139389
+Keypoint Speed: 75.499936
+Keypoint Speed: 69.147961
+Keypoint Speed: 79.731017
+Keypoint Speed: 77.668577
+Keypoint Speed: 66.031543
+Keypoint Speed: 92.734384
+Keypoint Speed: 73.152360
+Keypoint Speed: 77.751575
+Keypoint Speed: 84.051342
+Keypoint Speed: 82.677870
+Keypoint Speed: 71.348283
+Keypoint Speed: 69.772226
+Keypoint Speed: 85.608212
+Keypoint Speed: 78.444558
+Keypoint Speed: 83.655097
+Keypoint Speed: 87.098149
+Keypoint Speed: 71.848945
+Keypoint Speed: 91.787946
+Keypoint Speed: 78.005475
+Keypoint Speed: 84.259728
+Keypoint Speed: 73.501306
+Keypoint Speed: 62.380998
+Keypoint Speed: 81.941157
+Keypoint Speed: 69.536174
+Keypoint Speed: 73.938158
+Keypoint Speed: 75.026494
+Keypoint Speed: 69.414355
+Keypoint Speed: 76.328125
+Keypoint Speed: 87.074945
+Keypoint Speed: 84.751912
+Keypoint Speed: 82.828247
+Keypoint Speed: 79.135310
+Keypoint Speed: 72.295167
+Keypoint Speed: 80.934925
+Keypoint Speed: 73.675333
+Keypoint Speed: 75.933218
+Keypoint Speed: 77.888565
+Keypoint Speed: 66.647777
+Keypoint Speed: 69.612478
+Keypoint Speed: 80.788118
+Keypoint Speed: 80.756882
+Keypoint Speed: 73.494613
+Keypoint Speed: 74.116647
+Keypoint Speed: 78.950574
+Keypoint Speed: 63.202047
+Keypoint Speed: 72.226895
+Keypoint Speed: 77.552559
+Keypoint Speed: 146.799135
+Keypoint Speed: 82.443603
+Keypoint Speed: 78.121939
+Keypoint Speed: 84.454281
+Keypoint Speed: 73.386181
+Keypoint Speed: 65.249762
+Keypoint Speed: 78.869808
+Keypoint Speed: 71.734266
+Keypoint Speed: 76.464669
+Keypoint Speed: 74.733773
+Keypoint Speed: 93.822720
+Keypoint Speed: 71.844483
+Keypoint Speed: 85.406074
+Keypoint Speed: 78.361114
+Keypoint Speed: 78.937188
+Keypoint Speed: 81.497612
+Keypoint Speed: 73.167532
+Keypoint Speed: 86.662190
+Keypoint Speed: 68.896737
+Keypoint Speed: 89.853572
+Keypoint Speed: 94.301071
+Keypoint Error: 3121.150100
+Keypoint Error: 86.713302
+Keypoint Error: 69.454400
+Keypoint Error: 46.391373
+Keypoint Error: 40.208425
+Keypoint Error: 44.161191
+Keypoint Error: 50.965890
+Keypoint Error: 51.628629
+Keypoint Error: 51.609786
+Keypoint Error: 53.447290
+Keypoint Error: 58.411733
+Keypoint Error: 61.675083
+Keypoint Error: 60.951409
+Keypoint Error: 57.754098
+Keypoint Error: 53.255895
+Keypoint Error: 48.253316
+Keypoint Error: 47.579598
+Keypoint Error: 49.794298
+Keypoint Error: 52.507597
+Keypoint Error: 54.342230
+Keypoint Error: 44.492855
+Keypoint Error: 40.458109
+Keypoint Error: 41.534649
+Keypoint Error: 39.386443
+Keypoint Error: 38.247247
+Keypoint Error: 32.905134
+Keypoint Error: 31.551696
+Keypoint Error: 39.506342
+Keypoint Error: 44.663983
+Keypoint Error: 47.405114
+Keypoint Error: 40.735335
+Keypoint Error: 39.783981
+Keypoint Error: 49.832839
+Keypoint Error: 48.462914
+Keypoint Error: 48.343692
+Keypoint Error: 54.694136
+Keypoint Error: 56.989262
+Keypoint Error: 72.923817
+Keypoint Error: 72.923817
+Keypoint Error: 64.461643
+Keypoint Error: 48.810208
+Keypoint Error: 48.063286
+Keypoint Error: 43.458233
+Keypoint Error: 43.598161
+Keypoint Error: 42.207571
+Keypoint Error: 37.696515
+Keypoint Error: 41.120875
+Keypoint Error: 47.403880
+Keypoint Error: 60.343872
+Keypoint Error: 50.303521
+Keypoint Error: 38.243647
+Keypoint Error: 30.645108
+Keypoint Error: 24.817937
+Keypoint Error: 24.912560
+Keypoint Error: 40.620783
+Keypoint Error: 44.825726
+Keypoint Error: 51.162897
+Keypoint Error: 40.271473
+Keypoint Error: 37.343386
+Keypoint Error: 35.777824
+Keypoint Error: 51.604481
+Keypoint Error: 52.949444
+Keypoint Error: 52.891533
+Keypoint Error: 37.422554
+Keypoint Error: 40.237564
+Keypoint Error: 38.085024
+Keypoint Error: 36.585447
+Keypoint Error: 39.949615
+Keypoint Error: 53.038490
+Keypoint Error: 54.198948
+Keypoint Error: 40.889820
+Keypoint Error: 30.859358
+Keypoint Error: 29.546120
+Keypoint Error: 33.377171
+Keypoint Error: 40.644335
+Keypoint Error: 42.347676
+Keypoint Error: 37.130571
+Keypoint Error: 28.927558
+Keypoint Error: 30.126840
+Keypoint Error: 41.453217
+Keypoint Error: 50.593693
+Keypoint Error: 43.949348
+Keypoint Error: 45.417789
+Keypoint Error: 40.384029
+Keypoint Error: 43.574159
+Keypoint Error: 48.281647
+Keypoint Error: 40.595951
+Keypoint Error: 45.585236
+Keypoint Error: 34.660472
+Keypoint Error: 38.214413
+Keypoint Error: 29.270235
+Keypoint Error: 45.114679
+Keypoint Error: 40.908900
+Keypoint Error: 26.815651
+Keypoint Error: 27.497111
+Keypoint Error: 21.521916
+Keypoint Error: 27.301872
+Keypoint Error: 33.465873
+Keypoint Error: 32.024254
+Keypoint Error: 34.900575
+Keypoint Speed: 81.990241
+Keypoint Speed: 72.990828
+Keypoint Speed: 78.042065
+Keypoint Speed: 86.010705
+Keypoint Speed: 84.311490
+Keypoint Speed: 96.025720
+Keypoint Speed: 85.551988
+Keypoint Speed: 86.516721
+Keypoint Speed: 77.079564
+Keypoint Speed: 72.541036
+Keypoint Speed: 93.607195
+Keypoint Speed: 95.222966
+Keypoint Speed: 77.228156
+Keypoint Speed: 79.509245
+Keypoint Speed: 105.400407
+Keypoint Speed: 82.146865
+Keypoint Speed: 70.014971
+Keypoint Speed: 92.439877
+Keypoint Speed: 89.333277
+Keypoint Speed: 78.975563
+Keypoint Speed: 84.717552
+Keypoint Speed: 92.551433
+Keypoint Speed: 80.129940
+Keypoint Speed: 93.141785
+Keypoint Speed: 82.787194
+Keypoint Speed: 88.737124
+Keypoint Speed: 70.215325
+Keypoint Speed: 78.539603
+Keypoint Speed: 80.540911
+Keypoint Speed: 92.666558
+Keypoint Speed: 99.461633
+Keypoint Speed: 82.352127
+Keypoint Speed: 92.234169
+Keypoint Speed: 79.946989
+Keypoint Speed: 79.612768
+Keypoint Speed: 78.287041
+Keypoint Speed: 89.067328
+Keypoint Speed: 76.752036
+Keypoint Speed: 92.057911
+Keypoint Speed: 86.464067
+Keypoint Speed: 88.513566
+Keypoint Speed: 63.576874
+Keypoint Speed: 105.892144
+Keypoint Speed: 71.223341
+Keypoint Speed: 73.613754
+Keypoint Speed: 97.001609
+Keypoint Speed: 75.910015
+Keypoint Speed: 88.861620
+Keypoint Speed: 88.555065
+Keypoint Speed: 101.718179
+Keypoint Speed: 90.230184
+Keypoint Speed: 78.179056
+Keypoint Speed: 75.791766
+Keypoint Speed: 86.531446
+Keypoint Speed: 68.189475
+Keypoint Speed: 94.513026
+Keypoint Speed: 91.565281
+Keypoint Speed: 80.762237
+Keypoint Speed: 95.259556
+Keypoint Speed: 80.557421
+Keypoint Speed: 87.496179
+Keypoint Speed: 89.725506
+Keypoint Speed: 71.302769
+Keypoint Speed: 85.272653
+Keypoint Speed: 92.525106
+Keypoint Speed: 82.901427
+Keypoint Speed: 92.562588
+Keypoint Speed: 85.307012
+Keypoint Speed: 92.242647
+Keypoint Speed: 80.108521
+Keypoint Speed: 87.893317
+Keypoint Speed: 87.802288
+Keypoint Speed: 85.128969
+Keypoint Speed: 74.342882
+Keypoint Speed: 79.680148
+Keypoint Speed: 85.041510
+Keypoint Speed: 80.038911
+Keypoint Speed: 91.781253
+Keypoint Speed: 107.702022
+Keypoint Speed: 80.791688
+Keypoint Speed: 107.563246
+Keypoint Speed: 78.579763
+Keypoint Speed: 84.350311
+Keypoint Speed: 92.793731
+Keypoint Speed: 90.451510
+Keypoint Speed: 83.867499
+Keypoint Speed: 80.470854
+Keypoint Speed: 71.365686
+Keypoint Speed: 90.244463
+Keypoint Speed: 98.730274
+Keypoint Speed: 83.442249
+Keypoint Speed: 75.983641
+Keypoint Speed: 100.118918
+Keypoint Speed: 101.735136
+Keypoint Speed: 88.083408
+Keypoint Speed: 86.273530
+Keypoint Speed: 87.175345
+Keypoint Speed: 96.922181
+Keypoint Speed: 73.788674
+Keypoint Speed: 82.844757
+Keypoint Error: 3092.225426
+Keypoint Error: 41.032186
+Keypoint Error: 37.705015
+Keypoint Error: 35.103466
+Keypoint Error: 41.584428
+Keypoint Error: 39.134957
+Keypoint Error: 43.283639
+Keypoint Error: 45.780867
+Keypoint Error: 50.108742
+Keypoint Error: 47.025204
+Keypoint Error: 53.894026
+Keypoint Error: 55.731034
+Keypoint Error: 67.021035
+Keypoint Error: 55.739499
+Keypoint Error: 54.044226
+Keypoint Error: 47.425103
+Keypoint Error: 40.532658
+Keypoint Error: 46.566916
+Keypoint Error: 45.189194
+Keypoint Error: 56.649548
+Keypoint Error: 44.561010
+Keypoint Error: 45.821574
+Keypoint Error: 59.132505
+Keypoint Error: 71.317991
+Keypoint Error: 71.317991
+Keypoint Error: 71.317991
+Keypoint Error: 70.016120
+Keypoint Error: 56.285537
+Keypoint Error: 55.717648
+Keypoint Error: 42.155860
+Keypoint Error: 40.712812
+Keypoint Error: 35.287044
+Keypoint Error: 31.071427
+Keypoint Error: 30.518407
+Keypoint Error: 27.938083
+Keypoint Error: 35.221403
+Keypoint Error: 43.306696
+Keypoint Error: 44.343787
+Keypoint Error: 49.927307
+Keypoint Error: 35.717691
+Keypoint Error: 45.394679
+Keypoint Error: 44.384415
+Keypoint Error: 48.446483
+Keypoint Error: 37.782795
+Keypoint Error: 47.581667
+Keypoint Error: 34.825879
+Keypoint Error: 46.190452
+Keypoint Error: 39.432658
+Keypoint Error: 44.822076
+Keypoint Error: 39.322112
+Keypoint Error: 42.958280
+Keypoint Error: 42.750441
+Keypoint Error: 35.915729
+Keypoint Error: 27.354842
+Keypoint Error: 28.846796
+Keypoint Error: 35.254534
+Keypoint Error: 41.926509
+Keypoint Error: 41.926509
+Keypoint Error: 41.926509
+Keypoint Error: 41.926509
+Keypoint Error: 32.502287
+Keypoint Error: 43.092889
+Keypoint Error: 32.311729
+Keypoint Error: 32.053797
+Keypoint Error: 41.574800
+Keypoint Error: 45.931157
+Keypoint Error: 46.297970
+Keypoint Error: 30.423278
+Keypoint Error: 32.920671
+Keypoint Error: 32.920671
+Keypoint Error: 40.954735
+Keypoint Error: 38.030015
+Keypoint Error: 40.332370
+Keypoint Error: 26.070121
+Keypoint Error: 28.615792
+Keypoint Error: 30.283718
+Keypoint Error: 31.005705
+Keypoint Error: 34.166380
+Keypoint Error: 37.884678
+Keypoint Error: 39.182742
+Keypoint Error: 39.182742
+Keypoint Error: 40.054680
+Keypoint Error: 42.230498
+Keypoint Error: 42.230498
+Keypoint Error: 34.670252
+Keypoint Error: 34.840187
+Keypoint Error: 36.886741
+Keypoint Error: 36.612420
+Keypoint Error: 42.474694
+Keypoint Error: 47.867449
+Keypoint Error: 49.255301
+Keypoint Error: 38.765961
+Keypoint Error: 36.911540
+Keypoint Error: 38.036835
+Keypoint Error: 43.553002
+Keypoint Error: 40.128569
+Keypoint Error: 43.772503
+Keypoint Error: 40.827191
+Keypoint Error: 45.667159
+Keypoint Error: 47.698242
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
+ALG_NUM : 3.000000
 ALG_NUM : 2.000000
 ALG_NUM : 2.000000
 ALG_NUM : 2.000000
 ALG_NUM : 2.000000
 ALG_NUM : 2.000000
+Keypoint Speed: 49.976931
+Keypoint Speed: 47.716854
+Keypoint Speed: 50.014859
+Keypoint Speed: 48.803832
+Keypoint Speed: 46.900727
+Keypoint Speed: 49.471370
+Keypoint Speed: 49.918030
+Keypoint Speed: 50.967081
+Keypoint Speed: 46.778910
+Keypoint Speed: 47.820822
+Keypoint Speed: 49.793983
+Keypoint Speed: 47.674909
+Keypoint Speed: 46.543309
+Keypoint Speed: 49.534732
+Keypoint Speed: 47.947100
+Keypoint Speed: 46.541078
+Keypoint Speed: 49.526254
+Keypoint Speed: 51.535558
+Keypoint Speed: 45.052060
+Keypoint Speed: 46.067644
+Keypoint Speed: 48.331737
+Keypoint Speed: 47.291611
+Keypoint Speed: 46.083262
+Keypoint Speed: 46.935532
+Keypoint Speed: 47.485268
+Keypoint Speed: 47.676694
+Keypoint Speed: 46.403198
+Keypoint Speed: 48.793123
+Keypoint Speed: 48.200550
+Keypoint Speed: 49.477617
+Keypoint Speed: 47.947993
+Keypoint Speed: 44.622355
+Keypoint Speed: 49.146971
+Keypoint Speed: 47.067611
+Keypoint Speed: 47.691419
+Keypoint Speed: 43.690213
+Keypoint Speed: 48.958669
+Keypoint Speed: 48.451323
+Keypoint Speed: 46.426401
+Keypoint Speed: 45.747262
+Keypoint Speed: 48.212152
+Keypoint Speed: 47.730686
+Keypoint Speed: 46.944456
+Keypoint Speed: 50.461074
+Keypoint Speed: 50.554779
+Keypoint Speed: 50.717647
+Keypoint Speed: 50.029584
+Keypoint Speed: 49.194270
+Keypoint Speed: 46.797205
+Keypoint Speed: 46.201509
+Keypoint Speed: 46.844950
+Keypoint Speed: 44.529096
+Keypoint Speed: 45.231884
+Keypoint Speed: 48.656582
+Keypoint Speed: 47.712838
+Keypoint Speed: 45.336299
+Keypoint Speed: 47.808328
+Keypoint Speed: 48.580279
+Keypoint Speed: 46.544648
+Keypoint Speed: 48.108184
+Keypoint Speed: 48.424996
+Keypoint Speed: 48.011355
+Keypoint Speed: 48.894860
+Keypoint Speed: 44.922658
+Keypoint Speed: 49.868054
+Keypoint Speed: 47.855180
+Keypoint Speed: 48.696295
+Keypoint Speed: 50.010843
+Keypoint Speed: 47.640551
+Keypoint Speed: 47.986367
+Keypoint Speed: 49.561505
+Keypoint Speed: 48.811418
+Keypoint Speed: 46.817285
+Keypoint Speed: 46.581684
+Keypoint Speed: 46.459867
+Keypoint Speed: 48.075164
+Keypoint Speed: 48.937251
+Keypoint Speed: 51.126380
+Keypoint Speed: 46.202401
+Keypoint Speed: 44.368013
+Keypoint Speed: 49.489664
+Keypoint Speed: 47.528997
+Keypoint Speed: 49.665919
+Keypoint Speed: 48.115323
+Keypoint Speed: 44.838769
+Keypoint Speed: 44.262260
+Keypoint Speed: 47.744519
+Keypoint Speed: 46.827102
+Keypoint Speed: 46.854321
+Keypoint Speed: 46.329572
+Keypoint Speed: 49.342414
+Keypoint Speed: 48.517363
+Keypoint Speed: 49.556597
+Keypoint Speed: 46.450050
+Keypoint Speed: 47.206384
+Keypoint Speed: 51.344132
+Keypoint Speed: 47.405396
+Keypoint Speed: 47.353635
+Keypoint Speed: 45.810625
+Keypoint Speed: 46.821301
+Keypoint Error: 2891.177274
+Keypoint Error: 52.991896
+Keypoint Error: 45.473797
+Keypoint Error: 45.686108
+Keypoint Error: 43.881032
+Keypoint Error: 51.018730
+Keypoint Error: 63.500145
+Keypoint Error: 82.676923
+Keypoint Error: 81.674886
+Keypoint Error: 65.561154
+Keypoint Error: 48.804077
+Keypoint Error: 49.389110
+Keypoint Error: 58.158808
+Keypoint Error: 73.289473
+Keypoint Error: 59.377493
+Keypoint Error: 65.726740
+Keypoint Error: 73.550494
+Keypoint Error: 98.767603
+Keypoint Error: 108.671179
+Keypoint Error: 84.326398
+Keypoint Error: 63.832214
+Keypoint Error: 45.589423
+Keypoint Error: 41.894523
+Keypoint Error: 29.665631
+Keypoint Error: 28.016104
+Keypoint Error: 20.238201
+Keypoint Error: 21.292875
+Keypoint Error: 21.593743
+Keypoint Error: 21.795325
+Keypoint Error: 34.459809
+Keypoint Error: 38.420596
+Keypoint Error: 38.290312
+Keypoint Error: 27.968176
+Keypoint Error: 32.475752
+Keypoint Error: 32.503467
+Keypoint Error: 37.266078
+Keypoint Error: 31.092262
+Keypoint Error: 33.230625
+Keypoint Error: 67.503423
+Keypoint Error: 66.925530
+Keypoint Error: 66.400685
+Keypoint Error: 32.133843
+Keypoint Error: 35.043829
+Keypoint Error: 39.349630
+Keypoint Error: 34.572127
+Keypoint Error: 39.313118
+Keypoint Error: 48.205374
+Keypoint Error: 66.524028
+Keypoint Error: 70.532311
+Keypoint Error: 56.691694
+Keypoint Error: 40.550265
+Keypoint Error: 35.485462
+Keypoint Error: 40.598737
+Keypoint Error: 38.853931
+Keypoint Error: 37.952683
+Keypoint Error: 31.452522
+Keypoint Error: 33.935501
+Keypoint Error: 42.504784
+Keypoint Error: 46.008429
+Keypoint Error: 47.667220
+Keypoint Error: 43.423025
+Keypoint Error: 38.612822
+Keypoint Error: 33.105109
+Keypoint Error: 29.021754
+Keypoint Error: 26.814280
+Keypoint Error: 32.044819
+Keypoint Error: 31.700631
+Keypoint Error: 29.723035
+Keypoint Error: 24.836695
+Keypoint Error: 24.647995
+Keypoint Error: 27.228705
+Keypoint Error: 27.645572
+Keypoint Error: 29.606096
+Keypoint Error: 28.195474
+Keypoint Error: 32.319536
+Keypoint Error: 29.784085
+Keypoint Error: 26.122030
+Keypoint Error: 29.062442
+Keypoint Error: 27.471643
+Keypoint Error: 27.121306
+Keypoint Error: 29.800498
+Keypoint Error: 34.226922
+Keypoint Error: 31.661216
+Keypoint Error: 24.668465
+Keypoint Error: 23.911032
+Keypoint Error: 28.859684
+Keypoint Error: 26.890344
+Keypoint Error: 25.061266
+Keypoint Error: 21.613116
+Keypoint Error: 24.273233
+Keypoint Error: 23.105971
+Keypoint Error: 27.751201
+Keypoint Error: 26.862669
+Keypoint Error: 24.422738
+Keypoint Error: 25.176313
+Keypoint Error: 20.841382
+Keypoint Error: 15.276062
+Keypoint Error: 20.071011
+Keypoint Error: 19.046070
+Keypoint Error: 28.451869
+ALG_NUM : 2.000000
+Keypoint Speed: 51.092913
+Keypoint Speed: 46.476823
+Keypoint Speed: 48.101044
+Keypoint Speed: 49.469138
+Keypoint Speed: 48.628024
+Keypoint Speed: 48.553060
+Keypoint Speed: 49.608357
+Keypoint Speed: 48.500407
+Keypoint Speed: 50.645806
+Keypoint Speed: 48.098367
+Keypoint Speed: 50.609663
+Keypoint Speed: 51.909040
+Keypoint Speed: 46.923484
+Keypoint Speed: 50.929153
+Keypoint Speed: 47.675802
+Keypoint Speed: 49.944357
+Keypoint Speed: 48.956884
+Keypoint Speed: 47.346942
+Keypoint Speed: 53.413676
+Keypoint Speed: 46.749907
+Keypoint Speed: 47.614224
+Keypoint Speed: 47.148376
+Keypoint Speed: 47.084567
+Keypoint Speed: 51.053200
+Keypoint Speed: 47.246097
+Keypoint Speed: 46.803452
+Keypoint Speed: 47.852057
+Keypoint Speed: 46.770879
+Keypoint Speed: 45.918609
+Keypoint Speed: 48.045714
+Keypoint Speed: 48.780183
+Keypoint Speed: 46.607118
+Keypoint Speed: 47.712391
+Keypoint Speed: 48.430351
+Keypoint Speed: 49.117968
+Keypoint Speed: 46.752584
+Keypoint Speed: 46.487086
+Keypoint Speed: 46.970783
+Keypoint Speed: 47.178719
+Keypoint Speed: 47.918989
+Keypoint Speed: 46.952488
+Keypoint Speed: 46.319756
+Keypoint Speed: 46.658879
+Keypoint Speed: 47.299643
+Keypoint Speed: 46.592393
+Keypoint Speed: 46.661556
+Keypoint Speed: 45.179677
+Keypoint Speed: 49.898397
+Keypoint Speed: 46.498241
+Keypoint Speed: 52.332498
+Keypoint Speed: 45.865063
+Keypoint Speed: 47.317492
+Keypoint Speed: 50.760930
+Keypoint Speed: 47.999307
+Keypoint Speed: 45.621876
+Keypoint Speed: 46.015437
+Keypoint Speed: 47.582543
+Keypoint Speed: 46.489317
+Keypoint Speed: 46.523676
+Keypoint Speed: 45.634370
+Keypoint Speed: 48.138526
+Keypoint Speed: 48.775275
+Keypoint Speed: 47.500886
+Keypoint Speed: 47.058687
+Keypoint Speed: 45.586625
+Keypoint Speed: 46.465668
+Keypoint Speed: 46.569636
+Keypoint Speed: 47.392902
+Keypoint Speed: 46.985954
+Keypoint Speed: 46.063628
+Keypoint Speed: 47.473667
+Keypoint Speed: 46.564727
+Keypoint Speed: 47.130081
+Keypoint Speed: 46.274688
+Keypoint Speed: 48.488359
+Keypoint Speed: 47.282241
+Keypoint Speed: 46.325110
+Keypoint Speed: 46.395166
+Keypoint Speed: 44.135981
+Keypoint Speed: 47.228249
+Keypoint Speed: 47.828853
+Keypoint Speed: 45.181016
+Keypoint Speed: 45.641956
+Keypoint Speed: 45.655342
+Keypoint Speed: 46.576329
+Keypoint Speed: 47.651706
+Keypoint Speed: 46.983277
+Keypoint Speed: 47.171133
+Keypoint Speed: 47.408519
+Keypoint Speed: 45.111406
+Keypoint Speed: 43.960173
+Keypoint Speed: 47.205492
+Keypoint Speed: 46.445142
+Keypoint Speed: 47.549969
+Keypoint Speed: 48.331737
+Keypoint Speed: 44.380061
+Keypoint Speed: 46.270672
+Keypoint Speed: 45.872202
+Keypoint Speed: 46.614703
+Keypoint Speed: 46.347867
+Keypoint Error: 2739.847355
+Keypoint Error: 50.925044
+Keypoint Error: 61.199853
+Keypoint Error: 70.042539
+Keypoint Error: 113.364610
+Keypoint Error: 118.364602
+Keypoint Error: 112.892513
+Keypoint Error: 104.271844
+Keypoint Error: 93.567165
+Keypoint Error: 79.131332
+Keypoint Error: 66.136365
+Keypoint Error: 52.472902
+Keypoint Error: 45.029072
+Keypoint Error: 42.702048
+Keypoint Error: 53.974786
+Keypoint Error: 53.504721
+Keypoint Error: 44.811228
+Keypoint Error: 39.739240
+Keypoint Error: 42.153701
+Keypoint Error: 50.007814
+Keypoint Error: 50.121888
+Keypoint Error: 46.139207
+Keypoint Error: 39.935923
+Keypoint Error: 42.835031
+Keypoint Error: 38.520550
+Keypoint Error: 36.697651
+Keypoint Error: 33.040286
+Keypoint Error: 26.333134
+Keypoint Error: 24.650976
+Keypoint Error: 26.137583
+Keypoint Error: 22.958371
+Keypoint Error: 20.402485
+Keypoint Error: 24.217776
+Keypoint Error: 25.590139
+Keypoint Error: 23.970018
+Keypoint Error: 25.385419
+Keypoint Error: 25.951411
+Keypoint Error: 23.693834
+Keypoint Error: 22.787917
+Keypoint Error: 25.029580
+Keypoint Error: 30.778360
+Keypoint Error: 22.263086
+Keypoint Error: 30.079024
+Keypoint Error: 33.406555
+Keypoint Error: 36.964757
+Keypoint Error: 30.796360
+Keypoint Error: 20.156738
+Keypoint Error: 23.837915
+Keypoint Error: 37.141050
+Keypoint Error: 42.446961
+Keypoint Error: 42.891146
+Keypoint Error: 36.141450
+Keypoint Error: 32.366379
+Keypoint Error: 28.649407
+Keypoint Error: 29.734015
+Keypoint Error: 33.869131
+Keypoint Error: 38.759658
+Keypoint Error: 42.957146
+Keypoint Error: 48.668305
+Keypoint Error: 44.174740
+Keypoint Error: 40.721616
+Keypoint Error: 39.862767
+Keypoint Error: 42.353410
+Keypoint Error: 45.988855
+Keypoint Error: 55.857298
+Keypoint Error: 55.156246
+Keypoint Error: 50.326393
+Keypoint Error: 47.125774
+Keypoint Error: 45.173757
+Keypoint Error: 46.381510
+Keypoint Error: 47.844868
+Keypoint Error: 46.756289
+Keypoint Error: 44.592566
+Keypoint Error: 44.134706
+Keypoint Error: 41.654315
+Keypoint Error: 39.407205
+Keypoint Error: 37.676315
+Keypoint Error: 38.755587
+Keypoint Error: 38.458928
+Keypoint Error: 38.437630
+Keypoint Error: 32.636684
+Keypoint Error: 30.279736
+Keypoint Error: 32.000862
+Keypoint Error: 25.879479
+Keypoint Error: 25.597922
+Keypoint Error: 31.145706
+Keypoint Error: 39.058315
+Keypoint Error: 42.038148
+Keypoint Error: 34.364886
+Keypoint Error: 28.394197
+Keypoint Error: 29.848436
+Keypoint Error: 24.254705
+Keypoint Error: 26.124784
+Keypoint Error: 44.050005
+Keypoint Error: 44.716190
+Keypoint Error: 41.782484
+Keypoint Error: 19.777202
+Keypoint Error: 24.457939
+Keypoint Error: 25.493806
+Keypoint Error: 31.549546
+ALG_NUM : 2.000000
+Keypoint Speed: 46.816392
+Keypoint Speed: 45.297924
+Keypoint Speed: 49.201410
+Keypoint Speed: 51.710921
+Keypoint Speed: 52.697055
+Keypoint Speed: 51.677455
+Keypoint Speed: 55.408701
+Keypoint Speed: 47.501778
+Keypoint Speed: 50.770300
+Keypoint Speed: 60.684743
+Keypoint Speed: 50.918890
+Keypoint Speed: 53.976352
+Keypoint Speed: 54.240511
+Keypoint Speed: 48.626239
+Keypoint Speed: 49.448613
+Keypoint Speed: 48.138080
+Keypoint Speed: 51.201790
+Keypoint Speed: 49.732851
+Keypoint Speed: 49.362493
+Keypoint Speed: 48.506207
+Keypoint Speed: 47.243420
+Keypoint Speed: 49.373649
+Keypoint Speed: 46.831564
+Keypoint Speed: 52.048259
+Keypoint Speed: 49.067099
+Keypoint Speed: 51.449885
+Keypoint Speed: 48.973840
+Keypoint Speed: 52.377119
+Keypoint Speed: 51.808642
+Keypoint Speed: 47.186304
+Keypoint Speed: 49.220597
+Keypoint Speed: 47.472328
+Keypoint Speed: 48.025188
+Keypoint Speed: 46.131899
+Keypoint Speed: 49.876532
+Keypoint Speed: 50.973774
+Keypoint Speed: 45.573239
+Keypoint Speed: 49.880102
+Keypoint Speed: 45.433127
+Keypoint Speed: 45.716027
+Keypoint Speed: 48.100152
+Keypoint Speed: 49.661457
+Keypoint Speed: 46.518321
+Keypoint Speed: 50.685073
+Keypoint Speed: 48.880581
+Keypoint Speed: 48.993027
+Keypoint Speed: 47.780216
+Keypoint Speed: 48.091228
+Keypoint Speed: 46.199278
+Keypoint Speed: 48.408040
+Keypoint Speed: 48.885490
+Keypoint Speed: 49.601664
+Keypoint Speed: 46.072553
+Keypoint Speed: 49.410684
+Keypoint Speed: 45.316665
+Keypoint Speed: 48.632932
+Keypoint Speed: 53.351206
+Keypoint Speed: 50.280803
+Keypoint Speed: 50.581998
+Keypoint Speed: 44.451009
+Keypoint Speed: 49.354461
+Keypoint Speed: 48.396438
+Keypoint Speed: 49.128230
+Keypoint Speed: 50.163895
+Keypoint Speed: 48.477650
+Keypoint Speed: 50.405743
+Keypoint Speed: 47.473667
+Keypoint Speed: 47.835993
+Keypoint Speed: 46.073891
+Keypoint Speed: 46.775341
+Keypoint Speed: 46.185891
+Keypoint Speed: 49.869839
+Keypoint Speed: 49.719465
+Keypoint Speed: 49.813170
+Keypoint Speed: 48.160837
+Keypoint Speed: 44.526419
+Keypoint Speed: 44.613431
+Keypoint Speed: 47.728009
+Keypoint Speed: 47.466973
+Keypoint Speed: 50.810460
+Keypoint Speed: 51.789901
+Keypoint Speed: 50.299990
+Keypoint Speed: 46.651293
+Keypoint Speed: 49.136262
+Keypoint Speed: 50.762715
+Keypoint Speed: 49.587385
+Keypoint Speed: 49.141171
+Keypoint Speed: 49.028278
+Keypoint Speed: 50.076437
+Keypoint Speed: 50.536038
+Keypoint Speed: 51.713598
+Keypoint Speed: 46.407214
+Keypoint Speed: 47.465189
+Keypoint Speed: 45.047598
+Keypoint Speed: 46.703500
+Keypoint Speed: 51.400802
+Keypoint Speed: 48.270606
+Keypoint Speed: 46.364377
+Keypoint Speed: 47.133205
+Keypoint Speed: 45.694163
+Keypoint Error: 2719.837744
+Keypoint Error: 64.146286
+Keypoint Error: 60.679226
+Keypoint Error: 63.949104
+Keypoint Error: 67.221112
+Keypoint Error: 79.057005
+Keypoint Error: 86.435400
+Keypoint Error: 81.917476
+Keypoint Error: 67.806780
+Keypoint Error: 66.272269
+Keypoint Error: 66.544684
+Keypoint Error: 64.895135
+Keypoint Error: 60.019206
+Keypoint Error: 66.191484
+Keypoint Error: 65.456460
+Keypoint Error: 65.945193
+Keypoint Error: 54.148266
+Keypoint Error: 54.179622
+Keypoint Error: 54.862600
+Keypoint Error: 50.450849
+Keypoint Error: 53.121270
+Keypoint Error: 52.646783
+Keypoint Error: 49.813915
+Keypoint Error: 46.140545
+Keypoint Error: 48.326119
+Keypoint Error: 53.062516
+Keypoint Error: 55.533702
+Keypoint Error: 41.811921
+Keypoint Error: 39.849295
+Keypoint Error: 40.054027
+Keypoint Error: 44.331613
+Keypoint Error: 45.732979
+Keypoint Error: 46.496911
+Keypoint Error: 39.633070
+Keypoint Error: 42.813754
+Keypoint Error: 48.499173
+Keypoint Error: 49.414318
+Keypoint Error: 48.645852
+Keypoint Error: 45.561584
+Keypoint Error: 47.101645
+Keypoint Error: 50.268475
+Keypoint Error: 46.625548
+Keypoint Error: 47.403605
+Keypoint Error: 44.092352
+Keypoint Error: 54.532337
+Keypoint Error: 55.424964
+Keypoint Error: 52.626872
+Keypoint Error: 64.896716
+Keypoint Error: 71.476662
+Keypoint Error: 66.966513
+Keypoint Error: 49.819741
+Keypoint Error: 41.910683
+Keypoint Error: 42.018178
+Keypoint Error: 43.220668
+Keypoint Error: 45.456492
+Keypoint Error: 42.965170
+Keypoint Error: 47.619420
+Keypoint Error: 50.288086
+Keypoint Error: 54.028920
+Keypoint Error: 53.477197
+Keypoint Error: 52.570921
+Keypoint Error: 54.684664
+Keypoint Error: 58.417077
+Keypoint Error: 57.585699
+Keypoint Error: 50.531840
+Keypoint Error: 40.520258
+Keypoint Error: 36.227531
+Keypoint Error: 36.280091
+Keypoint Error: 37.184638
+Keypoint Error: 37.064525
+Keypoint Error: 33.648317
+Keypoint Error: 38.179259
+Keypoint Error: 34.193078
+Keypoint Error: 33.878112
+Keypoint Error: 32.502630
+Keypoint Error: 31.552811
+Keypoint Error: 29.039710
+Keypoint Error: 27.694525
+Keypoint Error: 26.987226
+Keypoint Error: 27.602580
+Keypoint Error: 25.815095
+Keypoint Error: 28.711713
+Keypoint Error: 31.215015
+Keypoint Error: 29.714408
+Keypoint Error: 29.768293
+Keypoint Error: 28.812429
+Keypoint Error: 39.831384
+Keypoint Error: 42.099871
+Keypoint Error: 35.988977
+Keypoint Error: 31.071384
+Keypoint Error: 34.898139
+Keypoint Error: 36.536337
+Keypoint Error: 30.838931
+Keypoint Error: 27.488809
+Keypoint Error: 26.842061
+Keypoint Error: 37.577132
+Keypoint Error: 34.562310
+Keypoint Error: 40.142111
+Keypoint Error: 32.243753
+Keypoint Error: 33.673150
+ALG_NUM : 2.000000
+Keypoint Speed: 46.874847
+Keypoint Speed: 48.073825
+Keypoint Speed: 48.343785
+Keypoint Speed: 46.874847
+Keypoint Speed: 47.595037
+Keypoint Speed: 46.460759
+Keypoint Speed: 52.215143
+Keypoint Speed: 50.283926
+Keypoint Speed: 45.384044
+Keypoint Speed: 45.458561
+Keypoint Speed: 46.706624
+Keypoint Speed: 46.078800
+Keypoint Speed: 47.585220
+Keypoint Speed: 47.386209
+Keypoint Speed: 49.812724
+Keypoint Speed: 46.752138
+Keypoint Speed: 46.934639
+Keypoint Speed: 47.059133
+Keypoint Speed: 47.851164
+Keypoint Speed: 46.743660
+Keypoint Speed: 48.126479
+Keypoint Speed: 49.084055
+Keypoint Speed: 49.811385
+Keypoint Speed: 47.559786
+Keypoint Speed: 48.330399
+Keypoint Speed: 49.661011
+Keypoint Speed: 52.464131
+Keypoint Speed: 49.988086
+Keypoint Speed: 46.160011
+Keypoint Speed: 48.288455
+Keypoint Speed: 44.916857
+Keypoint Speed: 49.146971
+Keypoint Speed: 48.586526
+Keypoint Speed: 48.352263
+Keypoint Speed: 49.229075
+Keypoint Speed: 51.978650
+Keypoint Speed: 47.202368
+Keypoint Speed: 47.618240
+Keypoint Speed: 46.820855
+Keypoint Speed: 47.215755
+Keypoint Speed: 47.537922
+Keypoint Speed: 47.956917
+Keypoint Speed: 48.654797
+Keypoint Speed: 50.372277
+Keypoint Speed: 47.657507
+Keypoint Speed: 48.613299
+Keypoint Speed: 48.805617
+Keypoint Speed: 44.611646
+Keypoint Speed: 45.019040
+Keypoint Speed: 48.125140
+Keypoint Speed: 48.176455
+Keypoint Speed: 46.908759
+Keypoint Speed: 49.747130
+Keypoint Speed: 50.194237
+Keypoint Speed: 48.405809
+Keypoint Speed: 48.562877
+Keypoint Speed: 46.006513
+Keypoint Speed: 48.044375
+Keypoint Speed: 50.528452
+Keypoint Speed: 47.739164
+Keypoint Speed: 49.048804
+Keypoint Speed: 50.598954
+Keypoint Speed: 48.150574
+Keypoint Speed: 49.113059
+Keypoint Speed: 49.929186
+Keypoint Speed: 51.019734
+Keypoint Speed: 47.031022
+Keypoint Speed: 51.534220
+Keypoint Speed: 45.849445
+Keypoint Speed: 44.276985
+Keypoint Speed: 46.923930
+Keypoint Speed: 49.503497
+Keypoint Speed: 45.628123
+Keypoint Speed: 48.363865
+Keypoint Speed: 43.737065
+Keypoint Speed: 52.124115
+Keypoint Speed: 47.417890
+Keypoint Speed: 46.133684
+Keypoint Speed: 43.686197
+Keypoint Speed: 44.867327
+Keypoint Speed: 47.002018
+Keypoint Speed: 45.393860
+Keypoint Speed: 45.192171
+Keypoint Speed: 48.946175
+Keypoint Speed: 49.001952
+Keypoint Speed: 45.847214
+Keypoint Speed: 49.183115
+Keypoint Speed: 47.578081
+Keypoint Speed: 44.346148
+Keypoint Speed: 48.145666
+Keypoint Speed: 48.417857
+Keypoint Speed: 49.006414
+Keypoint Speed: 47.560678
+Keypoint Speed: 46.362592
+Keypoint Speed: 50.669456
+Keypoint Speed: 46.243007
+Keypoint Speed: 47.991722
+Keypoint Speed: 47.055117
+Keypoint Speed: 43.482277
+Keypoint Speed: 48.255881
+Keypoint Error: 2788.643142
+Keypoint Error: 63.468173
+Keypoint Error: 60.082637
+Keypoint Error: 71.341884
+Keypoint Error: 86.042010
+Keypoint Error: 108.015957
+Keypoint Error: 107.908694
+Keypoint Error: 91.461202
+Keypoint Error: 61.152694
+Keypoint Error: 44.741381
+Keypoint Error: 37.147088
+Keypoint Error: 47.184665
+Keypoint Error: 72.708390
+Keypoint Error: 96.657278
+Keypoint Error: 97.423672
+Keypoint Error: 78.771139
+Keypoint Error: 59.633300
+Keypoint Error: 51.424532
+Keypoint Error: 52.567069
+Keypoint Error: 58.853221
+Keypoint Error: 63.351971
+Keypoint Error: 57.558965
+Keypoint Error: 51.786297
+Keypoint Error: 45.817210
+Keypoint Error: 42.601993
+Keypoint Error: 44.539028
+Keypoint Error: 45.682265
+Keypoint Error: 43.151741
+Keypoint Error: 36.219062
+Keypoint Error: 37.717738
+Keypoint Error: 39.680764
+Keypoint Error: 50.392787
+Keypoint Error: 46.253321
+Keypoint Error: 40.677071
+Keypoint Error: 34.825172
+Keypoint Error: 28.297498
+Keypoint Error: 29.716985
+Keypoint Error: 29.573544
+Keypoint Error: 30.101884
+Keypoint Error: 22.390198
+Keypoint Error: 23.890055
+Keypoint Error: 24.559040
+Keypoint Error: 21.908608
+Keypoint Error: 19.395580
+Keypoint Error: 16.697818
+Keypoint Error: 18.718181
+Keypoint Error: 20.796832
+Keypoint Error: 20.846182
+Keypoint Error: 22.685080
+Keypoint Error: 24.028361
+Keypoint Error: 26.038677
+Keypoint Error: 24.166401
+Keypoint Error: 24.435941
+Keypoint Error: 26.234657
+Keypoint Error: 27.887105
+Keypoint Error: 29.838119
+Keypoint Error: 24.835283
+Keypoint Error: 26.602175
+Keypoint Error: 31.227480
+Keypoint Error: 32.847246
+Keypoint Error: 32.727596
+Keypoint Error: 31.805831
+Keypoint Error: 27.162614
+Keypoint Error: 25.262368
+Keypoint Error: 28.423375
+Keypoint Error: 29.899579
+Keypoint Error: 30.953212
+Keypoint Error: 33.324147
+Keypoint Error: 25.687099
+Keypoint Error: 26.036258
+Keypoint Error: 29.005237
+Keypoint Error: 25.513846
+Keypoint Error: 22.759205
+Keypoint Error: 23.419288
+Keypoint Error: 24.303794
+Keypoint Error: 24.272705
+Keypoint Error: 21.034889
+Keypoint Error: 20.777311
+Keypoint Error: 29.558439
+Keypoint Error: 24.983313
+Keypoint Error: 30.067224
+Keypoint Error: 31.579803
+Keypoint Error: 31.202437
+Keypoint Error: 30.559873
+Keypoint Error: 30.384574
+Keypoint Error: 33.025216
+Keypoint Error: 27.723249
+Keypoint Error: 23.117841
+Keypoint Error: 32.714155
+Keypoint Error: 37.583504
+Keypoint Error: 39.369891
+Keypoint Error: 43.035683
+Keypoint Error: 44.155228
+Keypoint Error: 42.044606
+Keypoint Error: 37.038325
+Keypoint Error: 30.069256
+Keypoint Error: 34.503192
+Keypoint Error: 42.917478
+Keypoint Error: 48.818115
+Keypoint Error: 43.797218
+ALG_NUM : 2.000000
+Keypoint Speed: 45.997142
+Keypoint Speed: 45.806609
+Keypoint Speed: 48.610175
+Keypoint Speed: 47.392456
+Keypoint Speed: 45.294801
+Keypoint Speed: 45.883804
+Keypoint Speed: 49.677521
+Keypoint Speed: 47.763706
+Keypoint Speed: 46.359023
+Keypoint Speed: 46.229174
+Keypoint Speed: 47.028344
+Keypoint Speed: 46.881986
+Keypoint Speed: 45.918609
+Keypoint Speed: 46.753476
+Keypoint Speed: 45.041351
+Keypoint Speed: 44.788793
+Keypoint Speed: 47.150607
+Keypoint Speed: 45.048044
+Keypoint Speed: 47.281794
+Keypoint Speed: 47.885969
+Keypoint Speed: 47.325523
+Keypoint Speed: 47.499993
+Keypoint Speed: 48.607052
+Keypoint Speed: 48.848008
+Keypoint Speed: 45.032873
+Keypoint Speed: 46.367054
+Keypoint Speed: 48.553506
+Keypoint Speed: 47.153285
+Keypoint Speed: 45.595549
+Keypoint Speed: 47.422798
+Keypoint Speed: 44.306435
+Keypoint Speed: 44.271630
+Keypoint Speed: 46.112266
+Keypoint Speed: 47.987706
+Keypoint Speed: 46.611134
+Keypoint Speed: 45.894067
+Keypoint Speed: 48.848900
+Keypoint Speed: 48.672645
+Keypoint Speed: 45.207789
+Keypoint Speed: 46.808807
+Keypoint Speed: 49.421840
+Keypoint Speed: 46.600871
+Keypoint Speed: 47.214416
+Keypoint Speed: 46.938209
+Keypoint Speed: 44.977096
+Keypoint Speed: 47.181842
+Keypoint Speed: 45.695055
+Keypoint Speed: 47.142575
+Keypoint Speed: 47.316599
+Keypoint Speed: 48.446861
+Keypoint Speed: 45.065893
+Keypoint Speed: 44.884283
+Keypoint Speed: 46.096648
+Keypoint Speed: 45.576362
+Keypoint Speed: 46.439787
+Keypoint Speed: 45.194402
+Keypoint Speed: 47.816359
+Keypoint Speed: 45.870417
+Keypoint Speed: 45.519693
+Keypoint Speed: 48.428566
+Keypoint Speed: 46.259070
+Keypoint Speed: 46.755707
+Keypoint Speed: 45.201096
+Keypoint Speed: 47.725778
+Keypoint Speed: 48.137188
+Keypoint Speed: 47.595929
+Keypoint Speed: 47.829300
+Keypoint Speed: 47.484376
+Keypoint Speed: 48.593665
+Keypoint Speed: 47.489284
+Keypoint Speed: 46.353222
+Keypoint Speed: 48.511562
+Keypoint Speed: 44.682594
+Keypoint Speed: 45.209574
+Keypoint Speed: 47.622702
+Keypoint Speed: 47.598161
+Keypoint Speed: 47.106432
+Keypoint Speed: 48.982318
+Keypoint Speed: 45.825350
+Keypoint Speed: 47.417890
+Keypoint Speed: 46.742321
+Keypoint Speed: 47.841347
+Keypoint Speed: 46.712424
+Keypoint Speed: 45.056522
+Keypoint Speed: 48.083196
+Keypoint Speed: 48.138080
+Keypoint Speed: 46.554911
+Keypoint Speed: 44.655375
+Keypoint Speed: 47.547292
+Keypoint Speed: 48.116662
+Keypoint Speed: 47.732471
+Keypoint Speed: 47.616009
+Keypoint Speed: 46.735628
+Keypoint Speed: 45.977063
+Keypoint Speed: 46.050688
+Keypoint Speed: 46.452281
+Keypoint Speed: 49.455306
+Keypoint Speed: 46.518767
+Keypoint Speed: 49.243800
+Keypoint Speed: 47.486161
+Keypoint Error: 2723.606450
+Keypoint Error: 46.221991
+Keypoint Error: 45.956862
+Keypoint Error: 50.353769
+Keypoint Error: 52.745413
+Keypoint Error: 59.722654
+Keypoint Error: 65.064749
+Keypoint Error: 50.064901
+Keypoint Error: 35.870951
+Keypoint Error: 29.348436
+Keypoint Error: 31.601615
+Keypoint Error: 43.509980
+Keypoint Error: 52.066069
+Keypoint Error: 57.795161
+Keypoint Error: 55.652686
+Keypoint Error: 50.085230
+Keypoint Error: 46.085422
+Keypoint Error: 45.466210
+Keypoint Error: 43.153596
+Keypoint Error: 43.849017
+Keypoint Error: 45.621417
+Keypoint Error: 49.214875
+Keypoint Error: 57.772840
+Keypoint Error: 63.582314
+Keypoint Error: 64.196686
+Keypoint Error: 63.405888
+Keypoint Error: 45.128444
+Keypoint Error: 30.219154
+Keypoint Error: 26.153886
+Keypoint Error: 21.994268
+Keypoint Error: 21.816428
+Keypoint Error: 27.054431
+Keypoint Error: 31.557559
+Keypoint Error: 35.314872
+Keypoint Error: 34.510547
+Keypoint Error: 31.393303
+Keypoint Error: 25.781302
+Keypoint Error: 26.397831
+Keypoint Error: 26.445934
+Keypoint Error: 34.982146
+Keypoint Error: 39.831917
+Keypoint Error: 44.455011
+Keypoint Error: 36.921467
+Keypoint Error: 32.573683
+Keypoint Error: 26.982274
+Keypoint Error: 24.339978
+Keypoint Error: 19.796776
+Keypoint Error: 21.986032
+Keypoint Error: 22.704950
+Keypoint Error: 25.201252
+Keypoint Error: 23.910618
+Keypoint Error: 21.051256
+Keypoint Error: 21.912678
+Keypoint Error: 27.695310
+Keypoint Error: 24.467994
+Keypoint Error: 21.056426
+Keypoint Error: 18.112177
+Keypoint Error: 18.084524
+Keypoint Error: 16.629083
+Keypoint Error: 19.582206
+Keypoint Error: 21.207233
+Keypoint Error: 17.509863
+Keypoint Error: 24.910976
+Keypoint Error: 25.404818
+Keypoint Error: 28.658284
+Keypoint Error: 25.171863
+Keypoint Error: 23.172486
+Keypoint Error: 24.433715
+Keypoint Error: 27.263266
+Keypoint Error: 29.368894
+Keypoint Error: 24.784483
+Keypoint Error: 28.344562
+Keypoint Error: 25.581510
+Keypoint Error: 30.415572
+Keypoint Error: 28.430283
+Keypoint Error: 22.872491
+Keypoint Error: 22.968705
+Keypoint Error: 20.399533
+Keypoint Error: 20.901126
+Keypoint Error: 21.159271
+Keypoint Error: 18.349274
+Keypoint Error: 19.326261
+Keypoint Error: 22.533978
+Keypoint Error: 26.231923
+Keypoint Error: 27.643268
+Keypoint Error: 33.328784
+Keypoint Error: 35.654807
+Keypoint Error: 40.054876
+Keypoint Error: 38.551654
+Keypoint Error: 36.290507
+Keypoint Error: 29.049447
+Keypoint Error: 30.355766
+Keypoint Error: 36.079631
+Keypoint Error: 39.035016
+Keypoint Error: 40.260088
+Keypoint Error: 37.720655
+Keypoint Error: 39.468023
+Keypoint Error: 35.756890
+Keypoint Error: 34.036780
+Keypoint Error: 32.333689
+ALG_NUM : 2.000000
+Keypoint Speed: 45.188155
+Keypoint Speed: 43.296652
+Keypoint Speed: 48.252311
+Keypoint Speed: 45.927087
+Keypoint Speed: 46.097987
+Keypoint Speed: 45.559406
+Keypoint Speed: 47.140344
+Keypoint Speed: 47.354527
+Keypoint Speed: 44.994498
+Keypoint Speed: 45.868186
+Keypoint Speed: 46.878416
+Keypoint Speed: 46.475038
+Keypoint Speed: 47.400934
+Keypoint Speed: 48.118001
+Keypoint Speed: 45.972154
+Keypoint Speed: 48.529410
+Keypoint Speed: 48.172885
+Keypoint Speed: 46.629429
+Keypoint Speed: 47.814128
+Keypoint Speed: 45.879342
+Keypoint Speed: 44.833861
+Keypoint Speed: 46.239883
+Keypoint Speed: 45.240362
+Keypoint Speed: 45.816872
+Keypoint Speed: 44.077973
+Keypoint Speed: 48.947514
+Keypoint Speed: 47.169794
+Keypoint Speed: 44.798164
+Keypoint Speed: 48.410271
+Keypoint Speed: 47.983690
+Keypoint Speed: 46.254162
+Keypoint Speed: 48.347801
+Keypoint Speed: 44.373367
+Keypoint Speed: 46.397397
+Keypoint Speed: 46.759723
+Keypoint Speed: 47.537029
+Keypoint Speed: 49.044342
+Keypoint Speed: 45.259996
+Keypoint Speed: 44.851263
+Keypoint Speed: 44.601829
+Keypoint Speed: 44.587997
+Keypoint Speed: 44.190419
+Keypoint Speed: 46.220696
+Keypoint Speed: 45.648649
+Keypoint Speed: 44.674562
+Keypoint Speed: 44.929797
+Keypoint Speed: 44.450116
+Keypoint Speed: 45.146211
+Keypoint Speed: 45.706657
+Keypoint Speed: 47.217986
+Keypoint Speed: 47.438862
+Keypoint Speed: 45.461239
+Keypoint Speed: 45.189048
+Keypoint Speed: 45.352362
+Keypoint Speed: 46.484855
+Keypoint Speed: 47.045301
+Keypoint Speed: 43.994085
+Keypoint Speed: 46.594624
+Keypoint Speed: 47.690973
+Keypoint Speed: 47.184966
+Keypoint Speed: 47.458049
+Keypoint Speed: 46.305477
+Keypoint Speed: 44.590228
+Keypoint Speed: 45.717812
+Keypoint Speed: 45.434912
+Keypoint Speed: 44.671439
+Keypoint Speed: 45.325589
+Keypoint Speed: 47.875260
+Keypoint Speed: 45.876218
+Keypoint Speed: 43.431855
+Keypoint Speed: 46.709747
+Keypoint Speed: 44.487152
+Keypoint Speed: 43.780348
+Keypoint Speed: 45.668282
+Keypoint Speed: 45.115422
+Keypoint Speed: 45.200203
+Keypoint Speed: 46.253270
+Keypoint Speed: 45.977955
+Keypoint Speed: 45.811071
+Keypoint Speed: 48.225092
+Keypoint Speed: 46.966321
+Keypoint Speed: 45.441159
+Keypoint Speed: 46.643707
+Keypoint Speed: 46.372409
+Keypoint Speed: 43.162341
+Keypoint Speed: 45.902099
+Keypoint Speed: 44.211392
+Keypoint Speed: 46.880647
+Keypoint Speed: 44.788793
+Keypoint Speed: 44.466180
+Keypoint Speed: 45.172984
+Keypoint Speed: 44.867773
+Keypoint Speed: 43.862005
+Keypoint Speed: 44.907040
+Keypoint Speed: 44.161862
+Keypoint Speed: 45.201988
+Keypoint Speed: 44.044507
+Keypoint Speed: 43.181082
+Keypoint Speed: 44.731678
+Keypoint Speed: 43.961958
+Keypoint Error: 2994.782749
+Keypoint Error: 148.601630
+Keypoint Error: 151.421891
+Keypoint Error: 149.643684
+Keypoint Error: 142.548400
+Keypoint Error: 125.960429
+Keypoint Error: 102.884013
+Keypoint Error: 65.805063
+Keypoint Error: 44.772278
+Keypoint Error: 40.940213
+Keypoint Error: 48.277290
+Keypoint Error: 51.792735
+Keypoint Error: 50.782337
+Keypoint Error: 42.181297
+Keypoint Error: 32.691521
+Keypoint Error: 24.934313
+Keypoint Error: 25.298163
+Keypoint Error: 27.714603
+Keypoint Error: 34.825986
+Keypoint Error: 52.954474
+Keypoint Error: 56.759199
+Keypoint Error: 33.510130
+Keypoint Error: 28.603681
+Keypoint Error: 30.045931
+Keypoint Error: 33.116579
+Keypoint Error: 30.597387
+Keypoint Error: 40.780575
+Keypoint Error: 37.391018
+Keypoint Error: 41.715915
+Keypoint Error: 33.893944
+Keypoint Error: 39.164938
+Keypoint Error: 40.762277
+Keypoint Error: 45.568446
+Keypoint Error: 44.298078
+Keypoint Error: 42.651714
+Keypoint Error: 37.888833
+Keypoint Error: 48.056861
+Keypoint Error: 63.446930
+Keypoint Error: 59.618991
+Keypoint Error: 40.903056
+Keypoint Error: 38.323669
+Keypoint Error: 39.336997
+Keypoint Error: 38.201980
+Keypoint Error: 33.840671
+Keypoint Error: 33.799684
+Keypoint Error: 41.352455
+Keypoint Error: 42.752393
+Keypoint Error: 42.807266
+Keypoint Error: 44.693528
+Keypoint Error: 60.009045
+Keypoint Error: 57.074827
+Keypoint Error: 41.876563
+Keypoint Error: 34.943657
+Keypoint Error: 40.271933
+Keypoint Error: 55.976999
+Keypoint Error: 59.260980
+Keypoint Error: 46.591702
+Keypoint Error: 42.848751
+Keypoint Error: 49.642747
+Keypoint Error: 51.081319
+Keypoint Error: 52.364490
+Keypoint Error: 47.948001
+Keypoint Error: 42.979258
+Keypoint Error: 42.902568
+Keypoint Error: 47.275816
+Keypoint Error: 53.713098
+Keypoint Error: 59.383528
+Keypoint Error: 59.853391
+Keypoint Error: 57.387212
+Keypoint Error: 47.054648
+Keypoint Error: 45.925132
+Keypoint Error: 46.838154
+Keypoint Error: 43.196969
+Keypoint Error: 43.065472
+Keypoint Error: 45.433315
+Keypoint Error: 39.237396
+Keypoint Error: 33.534271
+Keypoint Error: 33.446256
+Keypoint Error: 27.118310
+Keypoint Error: 27.148321
+Keypoint Error: 34.071203
+Keypoint Error: 35.803327
+Keypoint Error: 57.759994
+Keypoint Error: 40.941120
+Keypoint Error: 43.388690
+Keypoint Error: 34.951081
+Keypoint Error: 39.092237
+Keypoint Error: 35.293436
+Keypoint Error: 32.098030
+Keypoint Error: 30.294346
+Keypoint Error: 28.335763
+Keypoint Error: 26.231695
+Keypoint Error: 23.605444
+Keypoint Error: 23.922854
+Keypoint Error: 27.798385
+Keypoint Error: 31.559055
+Keypoint Error: 31.108378
+Keypoint Error: 27.412391
+Keypoint Error: 26.873321
+Keypoint Error: 35.960704
+ALG_NUM : 2.000000
+Keypoint Speed: 45.888266
+Keypoint Speed: 45.284984
+Keypoint Speed: 46.169381
+Keypoint Speed: 44.062802
+Keypoint Speed: 42.681768
+Keypoint Speed: 44.831630
+Keypoint Speed: 47.045747
+Keypoint Speed: 44.615662
+Keypoint Speed: 40.739395
+Keypoint Speed: 45.429111
+Keypoint Speed: 42.742453
+Keypoint Speed: 44.209607
+Keypoint Speed: 43.151632
+Keypoint Speed: 45.599119
+Keypoint Speed: 42.861592
+Keypoint Speed: 41.117339
+Keypoint Speed: 43.001704
+Keypoint Speed: 44.737032
+Keypoint Speed: 44.977096
+Keypoint Speed: 45.433127
+Keypoint Speed: 43.314946
+Keypoint Speed: 43.223919
+Keypoint Speed: 43.424269
+Keypoint Speed: 43.128875
+Keypoint Speed: 42.441258
+Keypoint Speed: 42.203872
+Keypoint Speed: 43.227488
+Keypoint Speed: 42.248047
+Keypoint Speed: 43.450596
+Keypoint Speed: 45.064108
+Keypoint Speed: 42.106597
+Keypoint Speed: 43.564827
+Keypoint Speed: 42.428318
+Keypoint Speed: 41.734900
+Keypoint Speed: 43.151186
+Keypoint Speed: 42.721035
+Keypoint Speed: 42.954851
+Keypoint Speed: 45.398322
+Keypoint Speed: 42.464907
+Keypoint Speed: 42.427872
+Keypoint Speed: 43.391249
+Keypoint Speed: 44.594690
+Keypoint Speed: 43.866021
+Keypoint Speed: 40.630519
+Keypoint Speed: 42.814740
+Keypoint Speed: 43.419361
+Keypoint Speed: 42.556828
+Keypoint Speed: 41.370789
+Keypoint Speed: 43.237305
+Keypoint Speed: 42.620190
+Keypoint Speed: 47.086352
+Keypoint Speed: 43.033831
+Keypoint Speed: 42.469816
+Keypoint Speed: 45.393860
+Keypoint Speed: 42.093211
+Keypoint Speed: 41.096367
+Keypoint Speed: 43.829878
+Keypoint Speed: 43.361353
+Keypoint Speed: 43.312269
+Keypoint Speed: 40.997754
+Keypoint Speed: 42.013338
+Keypoint Speed: 42.912907
+Keypoint Speed: 44.230133
+Keypoint Speed: 43.882531
+Keypoint Speed: 44.185957
+Keypoint Speed: 45.998035
+Keypoint Speed: 42.397529
+Keypoint Speed: 42.640716
+Keypoint Speed: 45.678099
+Keypoint Speed: 46.546879
+Keypoint Speed: 43.270325
+Keypoint Speed: 43.406420
+Keypoint Speed: 42.272143
+Keypoint Speed: 42.720588
+Keypoint Speed: 43.010182
+Keypoint Speed: 43.505480
+Keypoint Speed: 43.525560
+Keypoint Speed: 44.293049
+Keypoint Speed: 43.645145
+Keypoint Speed: 45.350131
+Keypoint Speed: 46.279596
+Keypoint Speed: 43.384556
+Keypoint Speed: 45.041797
+Keypoint Speed: 45.812410
+Keypoint Speed: 43.245783
+Keypoint Speed: 44.835646
+Keypoint Speed: 43.108349
+Keypoint Speed: 44.591566
+Keypoint Speed: 45.379581
+Keypoint Speed: 42.197179
+Keypoint Speed: 44.409511
+Keypoint Speed: 43.473799
+Keypoint Speed: 44.332316
+Keypoint Speed: 44.636188
+Keypoint Speed: 44.308666
+Keypoint Speed: 45.643294
+Keypoint Speed: 44.566578
+Keypoint Speed: 42.671951
+Keypoint Speed: 45.317558
+Keypoint Speed: 44.133750
+Keypoint Error: 3308.224903
+Keypoint Error: 57.906837
+Keypoint Error: 53.968550
+Keypoint Error: 51.790985
+Keypoint Error: 55.015059
+Keypoint Error: 55.971521
+Keypoint Error: 53.495999
+Keypoint Error: 49.592382
+Keypoint Error: 48.770090
+Keypoint Error: 45.417304
+Keypoint Error: 43.231664
+Keypoint Error: 56.088111
+Keypoint Error: 55.623675
+Keypoint Error: 50.703699
+Keypoint Error: 36.056348
+Keypoint Error: 36.260751
+Keypoint Error: 40.360207
+Keypoint Error: 50.373663
+Keypoint Error: 51.842973
+Keypoint Error: 50.661674
+Keypoint Error: 43.670763
+Keypoint Error: 56.134424
+Keypoint Error: 58.149066
+Keypoint Error: 55.430390
+Keypoint Error: 36.167317
+Keypoint Error: 48.914661
+Keypoint Error: 45.553885
+Keypoint Error: 44.273584
+Keypoint Error: 26.903341
+Keypoint Error: 28.209191
+Keypoint Error: 27.784696
+Keypoint Error: 23.177588
+Keypoint Error: 27.110883
+Keypoint Error: 28.481476
+Keypoint Error: 30.705113
+Keypoint Error: 28.608736
+Keypoint Error: 28.542683
+Keypoint Error: 24.221461
+Keypoint Error: 26.767591
+Keypoint Error: 33.099429
+Keypoint Error: 37.091490
+Keypoint Error: 36.621936
+Keypoint Error: 36.180019
+Keypoint Error: 35.594154
+Keypoint Error: 34.751039
+Keypoint Error: 33.203055
+Keypoint Error: 35.458848
+Keypoint Error: 37.196830
+Keypoint Error: 38.014567
+Keypoint Error: 39.895097
+Keypoint Error: 42.721155
+Keypoint Error: 42.868888
+Keypoint Error: 36.705787
+Keypoint Error: 32.997494
+Keypoint Error: 37.431961
+Keypoint Error: 41.636334
+Keypoint Error: 42.207724
+Keypoint Error: 38.961321
+Keypoint Error: 38.011647
+Keypoint Error: 41.936790
+Keypoint Error: 41.929251
+Keypoint Error: 42.460401
+Keypoint Error: 36.530018
+Keypoint Error: 40.098895
+Keypoint Error: 42.570813
+Keypoint Error: 58.321568
+Keypoint Error: 51.045449
+Keypoint Error: 45.353327
+Keypoint Error: 33.251079
+Keypoint Error: 34.058210
+Keypoint Error: 34.043367
+Keypoint Error: 36.081275
+Keypoint Error: 35.315255
+Keypoint Error: 35.783565
+Keypoint Error: 33.248202
+Keypoint Error: 38.283848
+Keypoint Error: 39.537560
+Keypoint Error: 37.269697
+Keypoint Error: 33.244863
+Keypoint Error: 35.244813
+Keypoint Error: 36.950462
+Keypoint Error: 35.559423
+Keypoint Error: 34.570502
+Keypoint Error: 31.144770
+Keypoint Error: 28.036943
+Keypoint Error: 26.147916
+Keypoint Error: 24.354815
+Keypoint Error: 21.696757
+Keypoint Error: 26.146582
+Keypoint Error: 29.711742
+Keypoint Error: 29.572131
+Keypoint Error: 32.086316
+Keypoint Error: 32.241454
+Keypoint Error: 36.576656
+Keypoint Error: 37.795068
+Keypoint Error: 37.371501
+Keypoint Error: 35.380381
+Keypoint Error: 30.219273
+Keypoint Error: 24.986584
+Keypoint Error: 26.387096
+Keypoint Speed: 47.632073
+Keypoint Speed: 45.218498
+Keypoint Speed: 48.912709
+Keypoint Speed: 46.404983
+Keypoint Speed: 48.486574
+Keypoint Speed: 49.739991
+Keypoint Speed: 44.920427
+Keypoint Speed: 49.785058
+Keypoint Speed: 46.109589
+Keypoint Speed: 47.256360
+Keypoint Speed: 48.186718
+Keypoint Speed: 45.673637
+Keypoint Speed: 45.519693
+Keypoint Speed: 47.266623
+Keypoint Speed: 46.421939
+Keypoint Speed: 47.165779
+Keypoint Speed: 43.958834
+Keypoint Speed: 45.876218
+Keypoint Speed: 48.469171
+Keypoint Speed: 45.008777
+Keypoint Speed: 46.604887
+Keypoint Speed: 46.663787
+Keypoint Speed: 45.879788
+Keypoint Speed: 44.685271
+Keypoint Speed: 45.911915
+Keypoint Speed: 47.248774
+Keypoint Speed: 47.296519
+Keypoint Speed: 48.082303
+Keypoint Speed: 46.794082
+Keypoint Speed: 47.824391
+Keypoint Speed: 45.015916
+Keypoint Speed: 46.127437
+Keypoint Speed: 45.558067
+Keypoint Speed: 46.572759
+Keypoint Speed: 45.709334
+Keypoint Speed: 47.159085
+Keypoint Speed: 47.075643
+Keypoint Speed: 48.576709
+Keypoint Speed: 46.733397
+Keypoint Speed: 47.954240
+Keypoint Speed: 45.956091
+Keypoint Speed: 45.519693
+Keypoint Speed: 47.910511
+Keypoint Speed: 45.853908
+Keypoint Speed: 45.716920
+Keypoint Speed: 47.624933
+Keypoint Speed: 47.277778
+Keypoint Speed: 44.559439
+Keypoint Speed: 45.479533
+Keypoint Speed: 49.482079
+Keypoint Speed: 45.738338
+Keypoint Speed: 45.999820
+Keypoint Speed: 46.305923
+Keypoint Speed: 49.386589
+Keypoint Speed: 46.545540
+Keypoint Speed: 46.898942
+Keypoint Speed: 47.701682
+Keypoint Speed: 48.462478
+Keypoint Speed: 45.395645
+Keypoint Speed: 46.614703
+Keypoint Speed: 50.788149
+Keypoint Speed: 47.770399
+Keypoint Speed: 48.003770
+Keypoint Speed: 47.764152
+Keypoint Speed: 49.735975
+Keypoint Speed: 45.454099
+Keypoint Speed: 47.930590
+Keypoint Speed: 48.221522
+Keypoint Speed: 46.408999
+Keypoint Speed: 47.049763
+Keypoint Speed: 46.707070
+Keypoint Speed: 51.574825
+Keypoint Speed: 48.053299
+Keypoint Speed: 47.375053
+Keypoint Speed: 50.053233
+Keypoint Speed: 49.005521
+Keypoint Speed: 49.437903
+Keypoint Speed: 47.284918
+Keypoint Speed: 44.544714
+Keypoint Speed: 47.623595
+Keypoint Speed: 47.951563
+Keypoint Speed: 48.740024
+Keypoint Speed: 50.163002
+Keypoint Speed: 46.948918
+Keypoint Speed: 48.853362
+Keypoint Speed: 48.659259
+Keypoint Speed: 51.186172
+Keypoint Speed: 49.267449
+Keypoint Speed: 48.710127
+Keypoint Speed: 49.567752
+Keypoint Speed: 49.236661
+Keypoint Speed: 52.186586
+Keypoint Speed: 45.524155
+Keypoint Speed: 54.537244
+Keypoint Speed: 49.639146
+Keypoint Speed: 48.407148
+Keypoint Speed: 47.603515
+Keypoint Speed: 48.219291
+Keypoint Speed: 48.343785
+Keypoint Speed: 49.608357
+Keypoint Error: 2713.653970
+Keypoint Error: 95.456995
+Keypoint Error: 67.474206
+Keypoint Error: 48.481380
+Keypoint Error: 55.229299
+Keypoint Error: 83.425236
+Keypoint Error: 116.023830
+Keypoint Error: 102.568616
+Keypoint Error: 87.528988
+Keypoint Error: 95.811088
+Keypoint Error: 90.689944
+Keypoint Error: 86.233925
+Keypoint Error: 80.266304
+Keypoint Error: 77.416032
+Keypoint Error: 63.605073
+Keypoint Error: 64.413691
+Keypoint Error: 60.349741
+Keypoint Error: 55.423502
+Keypoint Error: 60.773891
+Keypoint Error: 73.640999
+Keypoint Error: 86.470937
+Keypoint Error: 113.253884
+Keypoint Error: 85.555958
+Keypoint Error: 73.496933
+Keypoint Error: 54.544208
+Keypoint Error: 74.145980
+Keypoint Error: 76.337499
+Keypoint Error: 76.585136
+Keypoint Error: 77.116783
+Keypoint Error: 91.809883
+Keypoint Error: 95.841825
+Keypoint Error: 101.204864
+Keypoint Error: 67.235219
+Keypoint Error: 42.638816
+Keypoint Error: 62.286775
+Keypoint Error: 62.015997
+Keypoint Error: 75.396026
+Keypoint Error: 57.448580
+Keypoint Error: 59.946167
+Keypoint Error: 43.037881
+Keypoint Error: 62.271540
+Keypoint Error: 46.961100
+Keypoint Error: 40.245913
+Keypoint Error: 34.162544
+Keypoint Error: 30.691671
+Keypoint Error: 36.072046
+Keypoint Error: 36.072046
+Keypoint Error: 32.247119
+Keypoint Error: 48.622731
+Keypoint Error: 56.691473
+Keypoint Error: 56.896966
+Keypoint Error: 50.089253
+Keypoint Error: 65.185636
+Keypoint Error: 71.953400
+Keypoint Error: 51.412726
+Keypoint Error: 52.133829
+Keypoint Error: 50.862780
+Keypoint Error: 61.782634
+Keypoint Error: 52.287684
+Keypoint Error: 43.099788
+Keypoint Error: 43.746414
+Keypoint Error: 38.773529
+Keypoint Error: 41.087479
+Keypoint Error: 47.608113
+Keypoint Error: 43.387380
+Keypoint Error: 36.309080
+Keypoint Error: 34.531527
+Keypoint Error: 33.414585
+Keypoint Error: 45.666748
+Keypoint Error: 45.666748
+Keypoint Error: 45.666748
+Keypoint Error: 36.518384
+Keypoint Error: 59.094171
+Keypoint Error: 61.575212
+Keypoint Error: 38.203678
+Keypoint Error: 42.702670
+Keypoint Error: 34.238458
+Keypoint Error: 30.479978
+Keypoint Error: 49.392950
+Keypoint Error: 52.460670
+Keypoint Error: 66.165172
+Keypoint Error: 55.077201
+Keypoint Error: 53.129301
+Keypoint Error: 47.891707
+Keypoint Error: 44.054931
+Keypoint Error: 43.125097
+Keypoint Error: 37.721433
+Keypoint Error: 41.797310
+Keypoint Error: 70.485712
+Keypoint Error: 102.908083
+Keypoint Error: 124.308760
+Keypoint Error: 162.133931
+Keypoint Error: 177.563479
+Keypoint Error: 186.743725
+Keypoint Error: 190.878996
+Keypoint Error: 175.201571
+Keypoint Error: 184.761979
+Keypoint Error: 148.366500
+Keypoint Error: 150.731017
+Keypoint Error: 140.961089
+ALG_NUM : 1.000000
+ALG_NUM : 2.000000
+Keypoint Speed: 42.608142
+Keypoint Speed: 42.581816
+Keypoint Speed: 41.894199
+Keypoint Speed: 44.122149
+Keypoint Speed: 42.963329
+Keypoint Speed: 46.472361
+Keypoint Speed: 43.068190
+Keypoint Speed: 44.877144
+Keypoint Speed: 43.423823
+Keypoint Speed: 45.137733
+Keypoint Speed: 44.581303
+Keypoint Speed: 46.617381
+Keypoint Speed: 43.845942
+Keypoint Speed: 43.734834
+Keypoint Speed: 43.538054
+Keypoint Speed: 44.677686
+Keypoint Speed: 42.602788
+Keypoint Speed: 43.040524
+Keypoint Speed: 42.833481
+Keypoint Speed: 41.685817
+Keypoint Speed: 42.786182
+Keypoint Speed: 41.618438
+Keypoint Speed: 44.511694
+Keypoint Speed: 43.044094
+Keypoint Speed: 44.569702
+Keypoint Speed: 45.538434
+Keypoint Speed: 43.776778
+Keypoint Speed: 47.089030
+Keypoint Speed: 43.866914
+Keypoint Speed: 43.439440
+Keypoint Speed: 43.630420
+Keypoint Speed: 44.932921
+Keypoint Speed: 43.457735
+Keypoint Speed: 44.792809
+Keypoint Speed: 44.349272
+Keypoint Speed: 42.514883
+Keypoint Speed: 43.398388
+Keypoint Speed: 45.378689
+Keypoint Speed: 44.160969
+Keypoint Speed: 41.815665
+Keypoint Speed: 43.866914
+Keypoint Speed: 42.703186
+Keypoint Speed: 43.426054
+Keypoint Speed: 44.828506
+Keypoint Speed: 45.931549
+Keypoint Speed: 43.772763
+Keypoint Speed: 42.969130
+Keypoint Speed: 43.411775
+Keypoint Speed: 43.199377
+Keypoint Speed: 43.376524
+Keypoint Speed: 43.291297
+Keypoint Speed: 46.196154
+Keypoint Speed: 43.971328
+Keypoint Speed: 45.497382
+Keypoint Speed: 43.949910
+Keypoint Speed: 43.185990
+Keypoint Speed: 41.773275
+Keypoint Speed: 43.800428
+Keypoint Speed: 42.882118
+Keypoint Speed: 42.078486
+Keypoint Speed: 45.133717
+Keypoint Speed: 44.108316
+Keypoint Speed: 44.351503
+Keypoint Speed: 43.703599
+Keypoint Speed: 42.687122
+Keypoint Speed: 43.679504
+Keypoint Speed: 42.742453
+Keypoint Speed: 43.421145
+Keypoint Speed: 43.098532
+Keypoint Speed: 44.302866
+Keypoint Speed: 41.713036
+Keypoint Speed: 42.952620
+Keypoint Speed: 43.319855
+Keypoint Speed: 43.190899
+Keypoint Speed: 44.108762
+Keypoint Speed: 44.295280
+Keypoint Speed: 42.832588
+Keypoint Speed: 41.651904
+Keypoint Speed: 42.798230
+Keypoint Speed: 45.779390
+Keypoint Speed: 42.570660
+Keypoint Speed: 43.505034
+Keypoint Speed: 45.197526
+Keypoint Speed: 43.585799
+Keypoint Speed: 43.788826
+Keypoint Speed: 41.316797
+Keypoint Speed: 42.840620
+Keypoint Speed: 45.036889
+Keypoint Speed: 43.007504
+Keypoint Speed: 41.884382
+Keypoint Speed: 45.500059
+Keypoint Speed: 42.442151
+Keypoint Speed: 40.867013
+Keypoint Speed: 42.070900
+Keypoint Speed: 43.462643
+Keypoint Speed: 43.188221
+Keypoint Speed: 43.169034
+Keypoint Speed: 42.914246
+Keypoint Speed: 43.742866
+Keypoint Speed: 45.438036
+Keypoint Error: 3141.118284
+Keypoint Error: 33.307263
+Keypoint Error: 32.330883
+Keypoint Error: 33.770541
+Keypoint Error: 38.024909
+Keypoint Error: 40.448370
+Keypoint Error: 34.334392
+Keypoint Error: 35.427301
+Keypoint Error: 33.186812
+Keypoint Error: 28.446173
+Keypoint Error: 33.287502
+Keypoint Error: 29.809285
+Keypoint Error: 25.538208
+Keypoint Error: 19.478344
+Keypoint Error: 24.270849
+Keypoint Error: 23.348782
+Keypoint Error: 26.288643
+Keypoint Error: 35.053985
+Keypoint Error: 35.229938
+Keypoint Error: 25.328100
+Keypoint Error: 14.982138
+Keypoint Error: 18.429269
+Keypoint Error: 17.716618
+Keypoint Error: 19.137350
+Keypoint Error: 21.924297
+Keypoint Error: 22.687423
+Keypoint Error: 28.435437
+Keypoint Error: 36.069357
+Keypoint Error: 33.438207
+Keypoint Error: 37.327042
+Keypoint Error: 38.815457
+Keypoint Error: 53.857423
+Keypoint Error: 66.370370
+Keypoint Error: 66.537444
+Keypoint Error: 66.631539
+Keypoint Error: 57.286945
+Keypoint Error: 47.965841
+Keypoint Error: 50.076508
+Keypoint Error: 53.899826
+Keypoint Error: 56.815044
+Keypoint Error: 58.425816
+Keypoint Error: 55.694236
+Keypoint Error: 61.505814
+Keypoint Error: 47.678049
+Keypoint Error: 42.929254
+Keypoint Error: 40.852963
+Keypoint Error: 54.074925
+Keypoint Error: 47.397015
+Keypoint Error: 42.761663
+Keypoint Error: 42.890699
+Keypoint Error: 47.718007
+Keypoint Error: 50.870346
+Keypoint Error: 42.346605
+Keypoint Error: 35.350265
+Keypoint Error: 33.428824
+Keypoint Error: 28.222993
+Keypoint Error: 30.556062
+Keypoint Error: 37.118747
+Keypoint Error: 38.561326
+Keypoint Error: 39.201594
+Keypoint Error: 37.798073
+Keypoint Error: 35.873726
+Keypoint Error: 38.118593
+Keypoint Error: 32.961835
+Keypoint Error: 32.377477
+Keypoint Error: 32.584125
+Keypoint Error: 37.302382
+Keypoint Error: 36.299147
+Keypoint Error: 45.649791
+Keypoint Error: 45.649791
+Keypoint Error: 48.120075
+Keypoint Error: 51.037012
+Keypoint Error: 45.760397
+Keypoint Error: 38.274314
+Keypoint Error: 38.801888
+Keypoint Error: 46.317775
+Keypoint Error: 47.536601
+Keypoint Error: 41.249695
+Keypoint Error: 40.690262
+Keypoint Error: 42.554158
+Keypoint Error: 45.249923
+Keypoint Error: 39.218478
+Keypoint Error: 36.325384
+Keypoint Error: 38.058872
+Keypoint Error: 40.743405
+Keypoint Error: 43.777494
+Keypoint Error: 39.599291
+Keypoint Error: 36.438441
+Keypoint Error: 38.935743
+Keypoint Error: 37.062163
+Keypoint Error: 35.479222
+Keypoint Error: 37.988866
+Keypoint Error: 37.762267
+Keypoint Error: 39.396331
+Keypoint Error: 35.114298
+Keypoint Error: 33.362762
+Keypoint Error: 37.693193
+Keypoint Error: 37.693193
+Keypoint Error: 37.900669
+Keypoint Error: 35.858430
+ALG_NUM : 1.000000
+Keypoint Speed: 55.989673
+Keypoint Speed: 52.710888
+Keypoint Speed: 61.892200
+Keypoint Speed: 61.968503
+Keypoint Speed: 64.826507
+Keypoint Speed: 54.353404
+Keypoint Speed: 48.878350
+Keypoint Speed: 58.452331
+Keypoint Speed: 63.854206
+Keypoint Speed: 65.864403
+Keypoint Speed: 57.007935
+Keypoint Speed: 53.834902
+Keypoint Speed: 58.884713
+Keypoint Speed: 58.040921
+Keypoint Speed: 58.298387
+Keypoint Speed: 55.804940
+Keypoint Speed: 59.707087
+Keypoint Speed: 54.533228
+Keypoint Speed: 59.989987
+Keypoint Speed: 51.342794
+Keypoint Speed: 45.852569
+Keypoint Speed: 54.651921
+Keypoint Speed: 51.855494
+Keypoint Speed: 60.694560
+Keypoint Speed: 61.038145
+Keypoint Speed: 61.181380
+Keypoint Speed: 61.943961
+Keypoint Speed: 60.056473
+Keypoint Speed: 65.895638
+Keypoint Speed: 56.981162
+Keypoint Speed: 63.003721
+Keypoint Speed: 57.708938
+Keypoint Speed: 54.552862
+Keypoint Speed: 58.657144
+Keypoint Speed: 52.867955
+Keypoint Speed: 58.870881
+Keypoint Speed: 61.787786
+Keypoint Speed: 51.867096
+Keypoint Speed: 61.553077
+Keypoint Speed: 61.472758
+Keypoint Speed: 55.362741
+Keypoint Speed: 59.302816
+Keypoint Speed: 56.066868
+Keypoint Speed: 58.977526
+Keypoint Speed: 61.004679
+Keypoint Speed: 52.626553
+Keypoint Speed: 54.244081
+Keypoint Speed: 61.871674
+Keypoint Speed: 64.175480
+Keypoint Speed: 56.327903
+Keypoint Speed: 45.475964
+Keypoint Speed: 55.021833
+Keypoint Speed: 53.025469
+Keypoint Speed: 54.035253
+Keypoint Speed: 50.126859
+Keypoint Speed: 53.310600
+Keypoint Speed: 51.270953
+Keypoint Speed: 56.140493
+Keypoint Speed: 63.005505
+Keypoint Speed: 54.105755
+Keypoint Speed: 59.447836
+Keypoint Speed: 60.760153
+Keypoint Speed: 61.509794
+Keypoint Speed: 48.813203
+Keypoint Speed: 55.804048
+Keypoint Speed: 54.736256
+Keypoint Speed: 50.554332
+Keypoint Speed: 58.049846
+Keypoint Speed: 64.396356
+Keypoint Speed: 77.583337
+Keypoint Speed: 57.779886
+Keypoint Speed: 54.152607
+Keypoint Speed: 58.875343
+Keypoint Speed: 54.630949
+Keypoint Speed: 50.307576
+Keypoint Speed: 55.313658
+Keypoint Speed: 64.892101
+Keypoint Speed: 54.089245
+Keypoint Speed: 48.905123
+Keypoint Speed: 59.656218
+Keypoint Speed: 62.474064
+Keypoint Speed: 57.501894
+Keypoint Speed: 61.342910
+Keypoint Speed: 45.703087
+Keypoint Speed: 47.910957
+Keypoint Speed: 57.335902
+Keypoint Speed: 60.350082
+Keypoint Speed: 56.705401
+Keypoint Speed: 54.067826
+Keypoint Speed: 56.176191
+Keypoint Speed: 59.403661
+Keypoint Speed: 56.049019
+Keypoint Speed: 51.358411
+Keypoint Speed: 54.128065
+Keypoint Speed: 60.006497
+Keypoint Speed: 58.505431
+Keypoint Speed: 59.706194
+Keypoint Speed: 68.629148
+Keypoint Speed: 52.850999
+Keypoint Speed: 56.127107
+Keypoint Error: 3087.582448
+Keypoint Error: 35.313551
+Keypoint Error: 40.735870
+Keypoint Error: 45.657205
+Keypoint Error: 45.877914
+Keypoint Error: 36.606974
+Keypoint Error: 36.928490
+Keypoint Error: 37.754503
+Keypoint Error: 39.419421
+Keypoint Error: 37.855905
+Keypoint Error: 37.866756
+Keypoint Error: 40.437246
+Keypoint Error: 44.105699
+Keypoint Error: 41.796875
+Keypoint Error: 41.054172
+Keypoint Error: 53.529094
+Keypoint Error: 65.094781
+Keypoint Error: 53.288783
+Keypoint Error: 52.412361
+Keypoint Error: 51.431382
+Keypoint Error: 50.073755
+Keypoint Error: 49.318288
+Keypoint Error: 41.336038
+Keypoint Error: 49.556904
+Keypoint Error: 40.114372
+Keypoint Error: 37.000111
+Keypoint Error: 32.486456
+Keypoint Error: 31.959754
+Keypoint Error: 32.289584
+Keypoint Error: 31.639617
+Keypoint Error: 31.799529
+Keypoint Error: 30.580344
+Keypoint Error: 30.176681
+Keypoint Error: 30.331374
+Keypoint Error: 30.027015
+Keypoint Error: 31.663347
+Keypoint Error: 30.847233
+Keypoint Error: 30.417477
+Keypoint Error: 27.808479
+Keypoint Error: 23.403119
+Keypoint Error: 22.412024
+Keypoint Error: 24.766938
+Keypoint Error: 25.290914
+Keypoint Error: 24.760367
+Keypoint Error: 20.567604
+Keypoint Error: 20.991412
+Keypoint Error: 24.549231
+Keypoint Error: 32.726472
+Keypoint Error: 30.729191
+Keypoint Error: 29.575271
+Keypoint Error: 22.286435
+Keypoint Error: 20.646470
+Keypoint Error: 20.514246
+Keypoint Error: 19.756141
+Keypoint Error: 20.740866
+Keypoint Error: 18.778018
+Keypoint Error: 19.512975
+Keypoint Error: 20.202482
+Keypoint Error: 21.067982
+Keypoint Error: 22.358183
+Keypoint Error: 22.596553
+Keypoint Error: 28.438365
+Keypoint Error: 27.646367
+Keypoint Error: 31.403016
+Keypoint Error: 32.062040
+Keypoint Error: 29.590801
+Keypoint Error: 30.750358
+Keypoint Error: 30.667220
+Keypoint Error: 29.755362
+Keypoint Error: 25.900429
+Keypoint Error: 28.095078
+Keypoint Error: 33.396628
+Keypoint Error: 42.372008
+Keypoint Error: 46.073797
+Keypoint Error: 51.861127
+Keypoint Error: 51.117600
+Keypoint Error: 47.906644
+Keypoint Error: 42.731324
+Keypoint Error: 42.776312
+Keypoint Error: 41.097486
+Keypoint Error: 39.543233
+Keypoint Error: 33.834329
+Keypoint Error: 37.095081
+Keypoint Error: 38.613593
+Keypoint Error: 38.943635
+Keypoint Error: 34.559607
+Keypoint Error: 35.137834
+Keypoint Error: 34.395347
+Keypoint Error: 32.889949
+Keypoint Error: 29.377424
+Keypoint Error: 35.076611
+Keypoint Error: 38.313942
+Keypoint Error: 40.595624
+Keypoint Error: 45.987877
+Keypoint Error: 49.719766
+Keypoint Error: 54.871442
+Keypoint Error: 54.460198
+Keypoint Error: 58.935128
+Keypoint Error: 57.534782
+Keypoint Error: 54.776148
+Keypoint Speed: 56.137816
+Keypoint Speed: 50.864898
+Keypoint Speed: 50.443671
+Keypoint Speed: 59.526370
+Keypoint Speed: 51.143782
+Keypoint Speed: 53.991524
+Keypoint Speed: 54.534121
+Keypoint Speed: 52.063877
+Keypoint Speed: 50.589583
+Keypoint Speed: 55.605482
+Keypoint Speed: 49.782827
+Keypoint Speed: 53.259286
+Keypoint Speed: 58.322483
+Keypoint Speed: 58.977080
+Keypoint Speed: 63.498573
+Keypoint Speed: 48.672199
+Keypoint Speed: 51.887176
+Keypoint Speed: 49.266111
+Keypoint Speed: 59.475055
+Keypoint Speed: 48.606606
+Keypoint Speed: 54.498870
+Keypoint Speed: 54.913849
+Keypoint Speed: 48.902892
+Keypoint Speed: 56.468461
+Keypoint Speed: 65.076834
+Keypoint Speed: 64.796611
+Keypoint Speed: 56.706740
+Keypoint Speed: 66.003621
+Keypoint Speed: 51.990697
+Keypoint Speed: 57.963726
+Keypoint Speed: 55.480096
+Keypoint Speed: 59.256856
+Keypoint Speed: 62.251849
+Keypoint Speed: 56.223043
+Keypoint Speed: 62.274606
+Keypoint Speed: 53.873277
+Keypoint Speed: 55.642518
+Keypoint Speed: 51.368674
+Keypoint Speed: 65.233901
+Keypoint Speed: 60.515628
+Keypoint Speed: 56.527808
+Keypoint Speed: 54.220878
+Keypoint Speed: 53.176290
+Keypoint Speed: 63.861791
+Keypoint Speed: 53.975014
+Keypoint Speed: 49.192932
+Keypoint Speed: 55.020941
+Keypoint Speed: 51.031336
+Keypoint Speed: 51.303081
+Keypoint Speed: 54.923666
+Keypoint Speed: 59.436681
+Keypoint Speed: 48.616869
+Keypoint Speed: 61.618670
+Keypoint Speed: 54.210169
+Keypoint Speed: 56.367170
+Keypoint Speed: 49.910891
+Keypoint Speed: 47.117141
+Keypoint Speed: 44.714275
+Keypoint Speed: 47.577635
+Keypoint Speed: 40.644352
+Keypoint Speed: 57.219887
+Keypoint Speed: 55.515793
+Keypoint Speed: 54.430153
+Keypoint Speed: 55.444399
+Keypoint Speed: 55.132048
+Keypoint Speed: 47.047085
+Keypoint Speed: 51.554299
+Keypoint Speed: 60.291628
+Keypoint Speed: 48.302733
+Keypoint Speed: 56.463107
+Keypoint Speed: 54.389547
+Keypoint Speed: 54.021866
+Keypoint Speed: 58.023965
+Keypoint Speed: 48.492375
+Keypoint Speed: 62.361171
+Keypoint Speed: 61.756997
+Keypoint Speed: 62.507084
+Keypoint Speed: 49.692692
+Keypoint Speed: 45.108729
+Keypoint Speed: 49.339290
+Keypoint Speed: 54.064703
+Keypoint Speed: 52.970138
+Keypoint Speed: 51.562777
+Keypoint Speed: 57.530006
+Keypoint Speed: 53.940209
+Keypoint Speed: 51.857725
+Keypoint Speed: 60.570512
+Keypoint Speed: 47.115356
+Keypoint Speed: 56.030725
+Keypoint Speed: 49.582923
+Keypoint Speed: 49.676182
+Keypoint Speed: 54.697435
+Keypoint Speed: 55.062439
+Keypoint Speed: 59.793653
+Keypoint Speed: 52.817087
+Keypoint Speed: 66.311956
+Keypoint Speed: 58.445638
+Keypoint Speed: 66.263318
+Keypoint Speed: 55.510885
+Keypoint Speed: 54.741610
+Keypoint Error: 3148.024660
+Keypoint Error: 24.326292
+Keypoint Error: 25.412149
+Keypoint Error: 24.082261
+Keypoint Error: 23.292076
+Keypoint Error: 26.486549
+Keypoint Error: 27.491450
+Keypoint Error: 25.914641
+Keypoint Error: 25.649695
+Keypoint Error: 28.728102
+Keypoint Error: 35.171183
+Keypoint Error: 35.697879
+Keypoint Error: 41.259433
+Keypoint Error: 36.741326
+Keypoint Error: 32.356866
+Keypoint Error: 27.556475
+Keypoint Error: 31.093502
+Keypoint Error: 33.803978
+Keypoint Error: 36.847381
+Keypoint Error: 36.591069
+Keypoint Error: 37.830308
+Keypoint Error: 43.618392
+Keypoint Error: 38.979945
+Keypoint Error: 37.946111
+Keypoint Error: 35.568114
+Keypoint Error: 35.445305
+Keypoint Error: 36.608663
+Keypoint Error: 38.686096
+Keypoint Error: 36.313517
+Keypoint Error: 37.765608
+Keypoint Error: 35.718449
+Keypoint Error: 47.501081
+Keypoint Error: 37.230518
+Keypoint Error: 39.985416
+Keypoint Error: 34.258043
+Keypoint Error: 35.612341
+Keypoint Error: 33.806869
+Keypoint Error: 31.779491
+Keypoint Error: 31.580363
+Keypoint Error: 33.163437
+Keypoint Error: 33.243657
+Keypoint Error: 37.096280
+Keypoint Error: 38.236517
+Keypoint Error: 45.221515
+Keypoint Error: 38.302256
+Keypoint Error: 42.878782
+Keypoint Error: 38.044470
+Keypoint Error: 42.516993
+Keypoint Error: 38.591745
+Keypoint Error: 48.040221
+Keypoint Error: 43.687437
+Keypoint Error: 42.075786
+Keypoint Error: 35.713716
+Keypoint Error: 37.834836
+Keypoint Error: 38.746577
+Keypoint Error: 42.259595
+Keypoint Error: 47.626003
+Keypoint Error: 55.362181
+Keypoint Error: 66.757053
+Keypoint Error: 76.212314
+Keypoint Error: 77.310240
+Keypoint Error: 80.762614
+Keypoint Error: 79.476086
+Keypoint Error: 76.672877
+Keypoint Error: 70.197186
+Keypoint Error: 73.714355
+Keypoint Error: 62.351790
+Keypoint Error: 65.848794
+Keypoint Error: 65.848794
+Keypoint Error: 64.987406
+Keypoint Error: 58.968019
+Keypoint Error: 71.819877
+Keypoint Error: 61.036590
+Keypoint Error: 52.244140
+Keypoint Error: 46.688676
+Keypoint Error: 40.556864
+Keypoint Error: 41.431291
+Keypoint Error: 38.662472
+Keypoint Error: 42.905509
+Keypoint Error: 49.969196
+Keypoint Error: 49.969196
+Keypoint Error: 53.149200
+Keypoint Error: 64.590954
+Keypoint Error: 51.491020
+Keypoint Error: 39.565007
+Keypoint Error: 33.644190
+Keypoint Error: 33.309197
+Keypoint Error: 34.345263
+Keypoint Error: 28.467979
+Keypoint Error: 25.061256
+Keypoint Error: 28.270212
+Keypoint Error: 31.286701
+Keypoint Error: 42.340058
+Keypoint Error: 42.340058
+Keypoint Error: 42.340058
+Keypoint Error: 33.997911
+Keypoint Error: 35.802706
+Keypoint Error: 33.124161
+Keypoint Error: 29.795391
+Keypoint Error: 33.709010
